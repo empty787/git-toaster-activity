@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   closeEmptyIssuesAndTemplates:
-    if: github.repository == 'coffee/github-readme-stats'
+    if: github.repository == 'CoffeeBit/coffeestats'
     name: Close empty issues
     runs-on: ubuntu-latest
     steps:

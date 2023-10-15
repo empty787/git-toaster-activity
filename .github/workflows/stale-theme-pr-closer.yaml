@@ -28,7 +28,7 @@ permissions:
 
 jobs:
   closeOldThemePrs:
-    if: github.repository == 'coffee/github-readme-stats'
+    if: github.repository == 'CoffeeBit/coffeestats'
     name: Close stale 'invalid' theme PRs
     runs-on: ubuntu-latest
     strategy:

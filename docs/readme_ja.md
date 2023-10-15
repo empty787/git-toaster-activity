@@ -4,23 +4,23 @@
  <p align="center">あなたの README に自動生成された GitHub の統計情報を載せましょう！</p>
 </p>
   <p align="center">
-    <a href="https://github.com/coffee/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/coffee/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/CoffeeBit/coffeestats/actions">
+      <img alt="Tests Passing" src="https://github.com/CoffeeBit/coffeestats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/coffee/github-readme-stats" />
+    <a href="https://github.com/CoffeeBit/coffeestats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/CoffeeBit/coffeestats" />
     </a>
-    <a href="https://codecov.io/gh/coffee/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/coffee/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/CoffeeBit/coffeestats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/CoffeeBit/coffeestats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/coffee/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/coffee/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/CoffeeBit/coffeestats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/CoffeeBit/coffeestats/badge" />
     </a>
     <br />
     <br />
@@ -35,9 +35,9 @@
   <p align="center">
     <a href="#demo">View Demo</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -94,7 +94,7 @@
 `?username=` の値は、あなたの GitHub アカウントのユーザー名に変更してください。
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Note: カードに表示されるランクはユーザの統計情報に基づいて計算されています。詳しくは、[src/calculateRank.js](../src/calculateRank.js)をご覧ください。_
@@ -106,7 +106,7 @@ _Note: カードに表示されるランクはユーザの統計情報に基づ�
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
 ```
 
 ### プライベートリポジトリへのコミットをカウントする
@@ -118,7 +118,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 > Options: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&count_private=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&count_private=true)
 ```
 
 ### アイコンを表示する
@@ -126,7 +126,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 クエリパラメータ `?show_icons=true` を使用することで、アイコンの表示が有効になります。
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
 ```
 
 ### テーマの変更
@@ -136,7 +136,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 `?theme=THEME_NAME` は以下のように使います。
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 ```
 
 #### 内蔵テーマの一覧
@@ -217,16 +217,16 @@ GitHub extra pins を使うと、GitHub の readme プロフィールを使っ�
 エンドポイント: `api/pin?username=coffee&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### デモ
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 
 リポジトリのオーナーのユーザー名を含める場合は、show_owner 変数を使用します。
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats&show_owner=true)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # Top Languages Card
 
@@ -241,7 +241,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 エンドポイント: `api/top-langs?username=coffee`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### 特定の言語を隠す
@@ -249,7 +249,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `?hide=language1,language2` 使用することで、特定の言語を非表示にすることができます。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### レイアウトをコンパクトにする
@@ -257,16 +257,16 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `&layout=compact` を使用することで、カードのデザインを変更することができます。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### デモ
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Compact layout の場合
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -274,33 +274,33 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - デフォルト
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
 
 - 特定の統計情報を隠す
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
 
 - アイコンを表示する
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
 
 - コミット数の総数をカウントする
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
 
 - テーマの変更
 
 任意の[テーマ](#themes)を選択できます。
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 
 - グラデーション
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - stats card のカスタマイズ
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - repo card のカスタマイズ
 
@@ -308,7 +308,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - Top languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -317,10 +317,10 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 通常、画像を並べてレイアウトすることはできません。画像を並べるには、以下のような方法があります。
 
 ```html
-<a href="https://github.com/coffee/github-readme-stats">
+<a href="https://github.com/CoffeeBit/coffeestats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/coffee/convoychat">
+<a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
@@ -331,9 +331,9 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://github-readme-stats.vercel.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
 
-NOTE: [#58](https://github.com/coffee/github-readme-stats/pull/58) 以降は 5k 以上のリクエストに対応できるようになり、ダウンタイムの問題もなくなりました :smile:
+NOTE: [#58](https://github.com/CoffeeBit/coffeestats/pull/58) 以降は 5k 以上のリクエストに対応できるようになり、ダウンタイムの問題もなくなりました :smile:
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/coffee/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/CoffeeBit/coffeestats)
 
 <details>
  <summary>Vercelの設定ガイド</summary>

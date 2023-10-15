@@ -17,7 +17,7 @@ With inbuilt themes, you can customize the look of the card without doing any ma
 Use \`?theme=THEME_NAME\` parameter like so:
 
 \`\`\`md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&theme=dark&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&theme=dark&show_icons=true)
 \`\`\`
 
 ## Stats
@@ -41,7 +41,7 @@ ${STAT_CARD_LINKS_FLAG}
 ${REPO_CARD_LINKS_FLAG}
 
 
-[add-theme]: https://github.com/coffee/github-readme-stats/edit/master/themes/index.js
+[add-theme]: https://github.com/CoffeeBit/coffeestats/edit/master/themes/index.js
 
 Want to add a new theme? Consider reading the [contribution guidelines](../CONTRIBUTING.md#themes-contribution) :D
 `;

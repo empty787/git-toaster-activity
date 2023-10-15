@@ -4,23 +4,23 @@
  <p align="center">Readme'lerinizde dinamik olarak oluşturulmuş GitHub istatistikleri alın!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/coffee/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/coffee/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/CoffeeBit/coffeestats/actions">
+      <img alt="Tests Passing" src="https://github.com/CoffeeBit/coffeestats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/coffee/github-readme-stats" />
+    <a href="https://github.com/CoffeeBit/coffeestats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/CoffeeBit/coffeestats" />
     </a>
-    <a href="https://codecov.io/gh/coffee/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/coffee/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/CoffeeBit/coffeestats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/CoffeeBit/coffeestats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/coffee/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/coffee/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/CoffeeBit/coffeestats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/CoffeeBit/coffeestats/badge" />
     </a>
     <br />
     <br />
@@ -35,9 +35,9 @@
   <p align="center">
     <a href="#demo">Demo</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Hata İlet</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Hata İlet</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Özellik Talep Et</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Özellik Talep Et</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -97,7 +97,7 @@ Alt kısımdaki kodu Kopyalayın ve yapıştırın. İşte bu kadar. Çok basit!
 `?username=` değerini kendi GitHub kullanıcı adınız ile değiştirin.
 
 ```md
-[![Anurag'nın GitHub İstatistikleri](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Coffee'nın GitHub İstatistikleri](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 _Not: Şu sıralamalar mevcut: S+ (en üst 1%), S (en üst 25%), A++ (en üst 45%), A+ (en üst 60%), and B+ (herkes).
 Buradaki değerler [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) ile hesaplanırken; commitler, katkılar, hatalar, yıldızlar, çekme istekleri, takipçiler ve sahip olunan depolar (repository) göz önünde bulundurulamaktadır.
@@ -231,16 +231,16 @@ Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın
 Endpoint: `api/pin?username=mustafacagri&repo=github-readme-stats`
 
 ```md
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 
 [show_owner](#özelleştirmeler) ile reponun sahibini gösterebilirsiniz.
 
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats&show_owner=true)](https://github.com/coffee/github-readme-stats)
+[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # En Çok Kullanılan Diller
 
@@ -255,7 +255,7 @@ Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın
 Endpoint: `api/top-langs?username=mustafacagri`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Belirli Repoları Çıkartın
@@ -263,7 +263,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?exclude_repo=repo1,repo2` parametresini kullanarak istediğiniz repoları çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&exclude_repo=github-readme-stats,coffee.github.io)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&exclude_repo=github-readme-stats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Belirli Dilleri Çıkartın
@@ -271,7 +271,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?hide=language1,language2` parametresini kullanarak istediğiniz dilleri çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Daha Fazla Dil Gösterin
@@ -279,7 +279,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&langs_count=` parametresini kullanarak kartınızda gösterilen dil sayısını azaltabilir ya da artırabilirsiniz. Varsayılan değeri 5, kullanılabilir sayı aralığı ise 1-10'dur.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Kompakt Dil Kartı Düzeni
@@ -287,34 +287,34 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&layout=compact` parametresiyle kart tasarımınızı değiştirebilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/CoffeeBit/coffeestats)
 
 - Kompakt Düzen / Layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # Wakatime Haftalık İstatistikler
 
 `?username=` değerini [Wakatime](https://wakatime.com)'daki kullanıcı adınızla değiştirin.
 
 ```md
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
 
 - Kompakt Düzen
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -322,37 +322,37 @@ Endpoint: `api/top-langs?username=mustafacagri`
 
 - Varsayılan
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
 
 - Belirli istatistikler gizli
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
 
 - İkonlar gösteriliyor
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
 
 - Tüm commitler dahil
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
 
 - Temalar
 
 [default themes](#themes) adresinden istediğiniz temayı seçin.
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
 
 - Gradient
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - İstatistik Kartını Düzenleyin
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Kartın dilini seçin
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&locale=es)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&locale=es)
 
 - Repo kartı düzenleyin
 
@@ -360,11 +360,11 @@ Endpoint: `api/top-langs?username=mustafacagri`
 
 - En çok kullanılan diller
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Wakatime kart
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -373,10 +373,10 @@ Endpoint: `api/top-langs?username=mustafacagri`
 Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaşımı kullanabilirsiniz:
 
 ```html
-<a href="https://github.com/coffee/github-readme-stats">
+<a href="https://github.com/CoffeeBit/coffeestats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/coffee/convoychat">
+<a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
@@ -389,9 +389,9 @@ Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaş�
 GitHub API saatte sadece 5.000 isteğe izin verdiği için `https://github-readme-stats.vercel.app/api` adresindeki API'm bu limite muhtemelen takılmış olabilir. Eğer projeyi kendi Vercel sunucunuzda yayınlarsanız, böyle bir sorun yaşamayabilirsiniz. Deploy butonuna tıkla ve deploy başlasın!
 
 
-NOT: [#58](https://github.com/coffee/github-readme-stats/pull/58) geliştirmesi sonrasında anlamadığımız bir şekilde 5.000 istek limitine takılmıyoruz :)
+NOT: [#58](https://github.com/CoffeeBit/coffeestats/pull/58) geliştirmesi sonrasında anlamadığımız bir şekilde 5.000 istek limitine takılmıyoruz :)
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/coffee/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/CoffeeBit/coffeestats)
 
 <details>
  <summary><strong> Vercel Kurulum Rehberi  🔨 </strong></summary>

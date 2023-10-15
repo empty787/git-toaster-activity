@@ -4,23 +4,23 @@
  <p align="center">पहुनु होस् द्य्नामिचल्ली गेनेरटे गितहब  रेअडमी सतत  </p>
 </p>
   <p align="center">
-    <a href="https://github.com/coffee/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/coffee/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/CoffeeBit/coffeestats/actions">
+      <img alt="Tests Passing" src="https://github.com/CoffeeBit/coffeestats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/coffee/github-readme-stats" />
+    <a href="https://github.com/CoffeeBit/coffeestats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/CoffeeBit/coffeestats" />
     </a>
-    <a href="https://codecov.io/gh/coffee/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/coffee/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/CoffeeBit/coffeestats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/CoffeeBit/coffeestats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/coffee/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/coffee/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/CoffeeBit/coffeestats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/CoffeeBit/coffeestats/badge" />
     </a>
     <br />
     <br />
@@ -35,9 +35,9 @@
   <p align="center">
     <a href="#demo">डेमो हेर्नुहोस्</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">रिपोर्ट बग</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">रिपोर्ट बग</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">अनुरोध सुविधा</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">अनुरोध सुविधा</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -97,7 +97,7 @@ Copy-paste this into your markdown content, and that's it. Simple!
 Change the `?username=` value to your GitHub's username.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Note: Ranks are calculated based on user's stats, see [src/calculateRank.js](./src/calculateRank.js)_
@@ -109,7 +109,7 @@ To hide any specific stats, you can pass a query parameter `?hide=` with comma-s
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
 ```
 
 ### जोड्नु होस् निजी टोटल  योगदान
@@ -121,7 +121,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 > Options: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&count_private=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&count_private=true)
 ```
 
 ### देखाउनु होस् इकोन 
@@ -129,7 +129,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 To enable icons, you can pass `show_icons=true` in the query param, like so:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
 ```
 
 ### विषयवस्तुहरू
@@ -139,7 +139,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `?theme=THEME_NAME` parameter like so :-
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 ```
 
 #### सबै इनबिल्ट विषयवस्तु :-
@@ -229,16 +229,16 @@ GitHub फाल्तु पिनले तपाइँलाए GitHub री
 Endpoint: `api/pin?username=coffee&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### डेमो 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats&show_owner=true)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # टोप भाषा कार्ड 
 
@@ -252,7 +252,7 @@ _NOTE: टोप भाषाहरुले आफ्नो सिपलाए 
 Endpoint: `api/top-langs?username=coffee`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Exclude individual repositories
@@ -260,7 +260,7 @@ Endpoint: `api/top-langs?username=coffee`
 You can use `?exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&exclude_repo=github-readme-stats,coffee.github.io)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&exclude_repo=github-readme-stats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### कुनै भाषा चुपौनॆ तरिका 
@@ -268,7 +268,7 @@ You can use `?exclude_repo=repo1,repo2` parameter to exclude individual reposito
 You can use `?hide=language1,language2` parameter to hide individual languages.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### धेरॆ भाषाहरु हेर्नको लागि 
@@ -276,7 +276,7 @@ You can use `?hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 10 (inclusive), and the default is 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&langs_count=8)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### कम्प्याक्ट भाषा कार्ड ळयोउत 
@@ -284,30 +284,30 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 तपाइले `&layout=compact` ओप्तिओनपनि  कार्ड देसिग्न को लागि परहयोग गर्न सक्नु हुन्क्ष 
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### डेमो 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Compact layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # वाका समय वीक स्तट्स 
 
 Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 ```md
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ###  डेमो
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -315,37 +315,37 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 - देफौल्ट 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
 
 - हिदिंग स्पेचific स्तट्स 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
 
 - इकोनहरु शो गर्ने 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
 
 - सबै कमितहरु 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
 
 - थेम्स 
 
 कुनै एउटा चोज गर्नुस [default themes](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 
 - घ्रदिएन्त 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - स्तत्स कार्ड लाए कस्तोमेज गर्ने    
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - सेत्तिंग  कार्ड  लोचले 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&locale=es)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&locale=es)
 
 - रेपो कार्डलाई एडित गर्नु 
 
@@ -353,11 +353,11 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 - टोप भाषा 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - वक समय कार्ड 
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/coffee/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -366,10 +366,10 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 तपाइले इमेजलाई सइद बय सइद  अलीग्न गर्न सक्नु हुदैन तेसैले येसरी गर्नु होस् :
 
 ```html
-<a href="https://github.com/coffee/github-readme-stats">
+<a href="https://github.com/CoffeeBit/coffeestats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/coffee/convoychat">
+<a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
@@ -382,9 +382,9 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
  `https://github-readme-stats.vercel.app/api` प्रोजेक्ट मा रेत्  लिमिट हुन सक्क्ष । तर तपाइले आफ्नै वेर्चेल सेर्वेर मा होस्ट गर्नु बाको छ बने यो प्रोब्लेम हुदैन।  
  होस्ट गर्ने तरिका यस पकारका षन ।
 
-NOTE: Since [#58](https://github.com/coffee/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
+NOTE: Since [#58](https://github.com/CoffeeBit/coffeestats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/coffee/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/CoffeeBit/coffeestats)
 
 <details>
  <summary><b> Guide on setting up Vercel  🔨 </b></summary>

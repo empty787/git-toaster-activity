@@ -4,23 +4,23 @@
  <p align="center">Mostra nei tuoi README file le statistiche GitHub generate dinamicamente!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/coffee/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/coffee/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/CoffeeBit/coffeestats/actions">
+      <img alt="Tests Passing" src="https://github.com/CoffeeBit/coffeestats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/coffee/github-readme-stats" />
+    <a href="https://github.com/CoffeeBit/coffeestats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/CoffeeBit/coffeestats" />
     </a>
-    <a href="https://codecov.io/gh/coffee/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/coffee/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/CoffeeBit/coffeestats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/CoffeeBit/coffeestats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://github.com/coffee/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/coffee/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/CoffeeBit/coffeestats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/CoffeeBit/coffeestats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/coffee/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/coffee/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/CoffeeBit/coffeestats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/CoffeeBit/coffeestats/badge" />
     </a>
     <br />
     <br />
@@ -35,9 +35,9 @@
   <p align="center">
     <a href="#demo">Anteprima</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Segnala un errore</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Segnala un errore</a>
     ·
-    <a href="https://github.com/coffee/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Richiedi una nuova funzionalità</a>
+    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Richiedi una nuova funzionalità</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -94,7 +94,7 @@ Per creare una Card con le statistiche GitHub, copia e incolla nel tuo file mark
 Ricorda di cambiare il valore `?username=` con il tuo nome utente GitHub.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Nota: I punteggi sono calcolati sulla base delle tue statistiche, dai un'occhiata a [src/calculateRank.js](../src/calculateRank.js) per ulteriori informazioni_
@@ -106,7 +106,7 @@ Per nascondere qualche dato, puoi aggiungere i parametri `?hide=`, separando i v
 > Opzioni: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
 ```
 
 ### Includere i contributi privati nel computo totale
@@ -118,7 +118,7 @@ _Nota: se hai deciso di fare il deploy del progetto, i contributi privati verran
 > Opzioni: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&count_private=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&count_private=true)
 ```
 
 ### Mostrare le icone
@@ -126,7 +126,7 @@ _Nota: se hai deciso di fare il deploy del progetto, i contributi privati verran
 Per abilitare le icone, puoi specificare `show_icons=true`, ad esempio:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
 ```
 
 ### Temi
@@ -136,7 +136,7 @@ Esistono alcuni temi predefiniti coi quali è possibile personalizzare l'aspetto
 Usa il parametro `?theme=NOME_TEMA` in questo modo:-
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 ```
 
 #### Galleria dei temi:-
@@ -210,16 +210,16 @@ Copia e incolla il seguente codice, premurandoti di cambiare il link.
 Endpoint: `api/pin?username=coffee&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
 
 Usa la variabile [show_owner](#personalizzazione) per includere il nome utente del proprietario
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats&show_owner=true)](https://github.com/coffee/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # Top Languages Card
 
@@ -234,7 +234,7 @@ Copia e incolla nel tuo file README, cambiando i link.
 Endpoint: `api/top-langs?username=coffee`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Nascondi linguaggi specifici
@@ -242,7 +242,7 @@ Endpoint: `api/top-langs?username=coffee`
 Puoi utilizzare il parametro `?hide=linguaggio1,linguaggio2` per nascondere alcuni linguaggi.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Layout compatto
@@ -250,16 +250,16 @@ Puoi utilizzare il parametro `?hide=linguaggio1,linguaggio2` per nascondere alcu
 Puoi utilizzare l'opzione `&layout=compact` per cambiare l'aspetto della card.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Layout Compatto
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -267,33 +267,33 @@ Puoi utilizzare l'opzione `&layout=compact` per cambiare l'aspetto della card.
 
 - Default
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
 
 - Nascondere dati specifici
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
 
 - Mostrare le icone
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
 
 - Includere tutti i commit
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
 
 - Temi
 
 Scegli uno dei [temi di default](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 
 - Gradiente
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Personalizzare le Stats Card
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Personalizzare le Repo Card
 
@@ -301,7 +301,7 @@ Scegli uno dei [temi di default](#themes)
 
 - Linguaggi più usati
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/coffee/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -310,10 +310,10 @@ Scegli uno dei [temi di default](#themes)
 Per allineare le card una accanto all'altra, puoi adottare questo approccio:
 
 ```html
-<a href="https://github.com/coffee/github-readme-stats">
+<a href="https://github.com/CoffeeBit/coffeestats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/coffee/convoychat">
+<a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
@@ -324,9 +324,9 @@ Per allineare le card una accanto all'altra, puoi adottare questo approccio:
 
 Since the GitHub API only allows 5k requests per hour, it is possible that my `https://github-readme-stats.vercel.app/api` could hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
 
-NOTE: Since [#58](https://github.com/coffee/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
+NOTE: Since [#58](https://github.com/CoffeeBit/coffeestats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/coffee/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/CoffeeBit/coffeestats)
 
 <details>
  <summary><b> Guide on setting up Vercel  🔨 </b></summary>
