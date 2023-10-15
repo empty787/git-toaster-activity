@@ -214,19 +214,19 @@ GitHub extra pins を使うと、GitHub の readme プロフィールを使っ�
 
 以下のコードをあなたの readme にコピー & ペーストし、リンクを変更してください。
 
-エンドポイント: `api/pin?username=coffee&repo=mdstats`
+エンドポイント: `api/pin?username=CoffeeBit&repo=coffeestats`
 
 ```md
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### デモ
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 
 リポジトリのオーナーのユーザー名を含める場合は、show_owner 変数を使用します。
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # Top Languages Card
 
@@ -304,7 +304,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - repo card のカスタマイズ
 
-![Customized Card](https://coffeestats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://coffeestats.vercel.app/api/pin?username=CoffeeBit&repo=coffeestats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top languages
 
@@ -318,7 +318,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />

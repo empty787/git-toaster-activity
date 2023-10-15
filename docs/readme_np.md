@@ -226,19 +226,19 @@ GitHub फाल्तु पिनले तपाइँलाए GitHub री
 
 कोदलाए  कपी- पेसेत  readme मा गर्नु होला र लिंक परिवतन गर्नु होला |
 
-Endpoint: `api/pin?username=coffee&repo=mdstats`
+Endpoint: `api/pin?username=CoffeeBit&repo=coffeestats`
 
 ```md
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### डेमो 
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # टोप भाषा कार्ड 
 
@@ -349,7 +349,7 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 - रेपो कार्डलाई एडित गर्नु 
 
-![Customized Card](https://coffeestats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://coffeestats.vercel.app/api/pin?username=CoffeeBit&repo=coffeestats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - टोप भाषा 
 
@@ -367,7 +367,7 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />

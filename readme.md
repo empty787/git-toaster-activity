@@ -433,10 +433,10 @@ Yay! You are no longer limited to 6 pinned repositories.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/pin?username=coffee&repo=mdstats`
+Endpoint: `api/pin?username=CoffeeBit&repo=coffeestats`
 
 ```md
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
@@ -713,7 +713,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
@@ -733,7 +733,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 ***
 
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />

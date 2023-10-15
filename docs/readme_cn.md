@@ -208,19 +208,19 @@ GitHub 更多置顶 允许你在使用 GitHub readme profile 时，在个人资�
 
 复制粘贴这段代码到你的 README 文件中，并更改链接。
 
-端点: `api/pin?username=coffee&repo=mdstats`
+端点: `api/pin?username=CoffeeBit&repo=coffeestats`
 
 ```md
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 
 使用 [show_owner](#自定义) 变量将 Repo 所有者的用户名包含在内。
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # 热门语言卡片
 
@@ -298,7 +298,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 - 自定义 repo 卡片
 
-![Customized Card](https://coffeestats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://coffeestats.vercel.app/api/pin?username=CoffeeBit&repo=coffeestats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - 热门语言
 
@@ -312,7 +312,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />

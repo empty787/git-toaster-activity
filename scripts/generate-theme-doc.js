@@ -47,7 +47,7 @@ Want to add a new theme? Consider reading the [contribution guidelines](../CONTR
 `;
 
 const createRepoMdLink = (theme) => {
-  return `\n[${theme}_repo]: https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats&cache_seconds=86400&theme=${theme}`;
+  return `\n[${theme}_repo]: https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&cache_seconds=86400&theme=${theme}`;
 };
 const createStatMdLink = (theme) => {
   return `\n[${theme}]: https://coffeestats.vercel.app/api?username=coffee&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;

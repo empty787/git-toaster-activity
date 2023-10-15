@@ -202,19 +202,19 @@ Uhu! Você não está mais limitado a 6 repositórios fixados.
 
 Copie e cole esse código no seu README.md e altere os atributos.
 
-Endpoint: `api/pin?username=coffee&repo=mdstats`
+Endpoint: `api/pin?username=CoffeeBit&repo=coffeestats`
 
 ```md
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demonstração
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
 
 Utilize a variável [show_owner](#personalização) para incluir o nome de usuário do proprietária do repositório
 
-[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # Cartão de principais linguagens de programação
 
@@ -304,7 +304,7 @@ Escolha entre um dos [temas predefinidos](#temas)
 
 - Customizando o cartão de repositório
 
-![Customized Card](https://coffeestats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://coffeestats.vercel.app/api/pin?username=CoffeeBit&repo=coffeestats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Principais linguagens
 
@@ -318,7 +318,7 @@ Por padrão, você não poderá organizar as imagens lado a lado. Para fazer iss
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
