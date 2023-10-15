@@ -98,7 +98,7 @@ Copia y pega esto en el contenido de tu README.md y listo. ¡Simple!
 Cambia el valor de `?username=` al nombre de tu usuario de GitHub.
 
 ```md
-[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Nota: Los rangos disponibles son S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%) y B+ (todos). Los valores se calculan utilizando la [función de distribución acumulada](https://es.wikipedia.org/wiki/Funci%C3%B3n_de_distribuci%C3%B3n) utilizando commits, contribuciones, issues, estrellas, pull request, seguidores y repositorios propios. Puedes investigar más sobre la implementación en [src/calculateRank.js](../src/calculateRank.js)._
@@ -110,7 +110,7 @@ Para ocultar alguna estadística específica, puedes utilizar el parámetro `?hi
 > Opciones: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=contribs,prs)
 ```
 
 ### Agregar contribuciones privadas al total de commits contados
@@ -122,7 +122,7 @@ _Nota: Si estás desplegando este proyecto tú mismo, las contribuciones privada
 > Opciones: `&count_private=true`
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&count_private=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&count_private=true)
 ```
 
 ### Mostrar íconos
@@ -130,7 +130,7 @@ _Nota: Si estás desplegando este proyecto tú mismo, las contribuciones privada
 Para habilitar los íconos, puedes utilizar `show_icons=true` como parámetro, de esta manera:
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true)
 ```
 
 ### Temas
@@ -140,7 +140,7 @@ Puedes personalizar el aspecto de la tarjeta sin realizar ninguna [personalizaci
 Utiliza el parámetro `?theme=THEME_NAME`, de esta manera:
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 ```
 
 #### Todos los temas incorporados
@@ -252,10 +252,10 @@ _NOTA: los lenguajes principales no indican mi nivel de habilidad o algo así, e
 
 Copia y pegua este código en tu Readme y cambia los enlaces.
 
-Endpoint: `api/top-langs?username=coffee`
+Endpoint: `api/top-langs?username=CoffeeBit`
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Excluir repositorios individualmente
@@ -263,7 +263,7 @@ Endpoint: `api/top-langs?username=coffee`
 Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios individualmente.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&exclude_repo=mdstats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&exclude_repo=mdstats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Ocultar lenguajes individualmente
@@ -271,7 +271,7 @@ Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios 
 Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes individualmente.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Mostrar más lenguajes
@@ -279,7 +279,7 @@ Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes ind
 Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el número de lenguajes mostrados en la tarjeta. Los valores admitidos son los números enteros entre 1 y 10 (inclusive), y el valor por defecto es 5.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Diseño Compacto de Tarjeta de Lenguaje
@@ -287,16 +287,16 @@ Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el núm
 Puedes usar la opción `& layout = compact` para cambiar el diseño de la tarjeta.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Ejemplo
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 - Diseño compacto
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # Estadísticas de la semana de Wakatime
 
@@ -322,37 +322,37 @@ cambia el valor del parámetro `?username=` a tu username en [Wakatime](https://
 
 - Por defecto
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)
 
 - Ocultando ciertas estadísticas
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=contribs,issues)
 
 - Mostrando íconos
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=issues&show_icons=true)
 
 - Incluyendo todos los commits
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&include_all_commits=true)
 
 - Temas
 
 Escoja cualquiera de los [temas por defecto](#themes)
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 
 - Gradiente
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Personalizando Tarjeta de Estadísticas
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=CoffeeBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Estableciendo Idioma de la tarjeta
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=coffee&locale=es)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=CoffeeBit&locale=es)
 
 - Personalizando Tarjeta de Repo
 
@@ -360,7 +360,7 @@ Escoja cualquiera de los [temas por defecto](#themes)
 
 - Lenguajes Top
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 - Tarjeta de Wakatime
 
@@ -377,7 +377,7 @@ Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para h
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=convoychat" />
 </a>
 ```
 

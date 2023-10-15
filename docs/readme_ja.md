@@ -94,7 +94,7 @@
 `?username=` の値は、あなたの GitHub アカウントのユーザー名に変更してください。
 
 ```md
-[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Note: カードに表示されるランクはユーザの統計情報に基づいて計算されています。詳しくは、[src/calculateRank.js](../src/calculateRank.js)をご覧ください。_
@@ -106,7 +106,7 @@ _Note: カードに表示されるランクはユーザの統計情報に基づ�
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=contribs,prs)
 ```
 
 ### プライベートリポジトリへのコミットをカウントする
@@ -118,7 +118,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 > Options: `&count_private=true`
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&count_private=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&count_private=true)
 ```
 
 ### アイコンを表示する
@@ -126,7 +126,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 クエリパラメータ `?show_icons=true` を使用することで、アイコンの表示が有効になります。
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true)
 ```
 
 ### テーマの変更
@@ -136,7 +136,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 `?theme=THEME_NAME` は以下のように使います。
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 ```
 
 #### 内蔵テーマの一覧
@@ -238,10 +238,10 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 以下のコードをあなたの readme にコピー & ペーストし、リンクを変更してください。
 
-エンドポイント: `api/top-langs?username=coffee`
+エンドポイント: `api/top-langs?username=CoffeeBit`
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### 特定の言語を隠す
@@ -249,7 +249,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `?hide=language1,language2` 使用することで、特定の言語を非表示にすることができます。
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### レイアウトをコンパクトにする
@@ -257,16 +257,16 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `&layout=compact` を使用することで、カードのデザインを変更することができます。
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### デモ
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 - Compact layout の場合
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -274,33 +274,33 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - デフォルト
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)
 
 - 特定の統計情報を隠す
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=contribs,issues)
 
 - アイコンを表示する
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=issues&show_icons=true)
 
 - コミット数の総数をカウントする
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&include_all_commits=true)
 
 - テーマの変更
 
 任意の[テーマ](#themes)を選択できます。
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 
 - グラデーション
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - stats card のカスタマイズ
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=CoffeeBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - repo card のカスタマイズ
 
@@ -308,7 +308,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - Top languages
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -321,7 +321,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=convoychat" />
 </a>
 ```
 

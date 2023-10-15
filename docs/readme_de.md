@@ -94,7 +94,7 @@ Kopiere folgendes in deine Readme um die Statistiken zu benutzen.
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutzername steht.
 
 ```md
-[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Hinweis: Die Berechnung des Ranges basiert auf den jeweiligen Benutzerstatistiken, siehe [src/calculateRank.js](../src/calculateRank.js)_
@@ -106,7 +106,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 > Optionen: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=["contribs","prs"])
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=["contribs","prs"])
 ```
 
 ### Symbole anzeigen
@@ -114,7 +114,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 Um Symbole anzuzeigen kann der URL-Parameter `show_icons=true` wie folgt verwendet werden:
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true)
 ```
 
 ### Erscheinungsbild/Themes
@@ -124,7 +124,7 @@ Mithilfe der eingebauten Themes kann das Aussehen der Karten verändern werden, 
 Benutze den `?theme=THEME_NAME`-Parameter wie folgt :-
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 ```
 
 #### Alle eingebauten Themes :-
@@ -236,10 +236,10 @@ _HINWEIS: Die Top Programmiersprachen treffen keine Aussage über persönliche F
 Füge diesen Code in deine Readme-Datei ein und passe die Links an.
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutzername steht.
 
-Endpunkt: `api/top-langs?username=coffee`
+Endpunkt: `api/top-langs?username=CoffeeBit`
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Verbirg einzelne Sprachen
@@ -247,7 +247,7 @@ Endpunkt: `api/top-langs?username=coffee`
 Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sprachen auszublenden.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Kompaktes Sprachen-Karte Layout
@@ -255,16 +255,16 @@ Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sp
 Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Beispiel
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 - Kompaktes Layout
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # Wakatime Wochen-Statistik
 
@@ -290,33 +290,33 @@ Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 - Default
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)
 
 - Ausblenden bestimmter Statistiken
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=["contribs","issues"])
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=["contribs","issues"])
 
 - Symbole anzeigen
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=["issues"]&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=["issues"]&show_icons=true)
 
 - Alle Beiträge anzeigen
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&include_all_commits=true)
 
 - Erscheinungsbild/Themes
 
 Wähle Eines von den [Standard-Themes](#themes)
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 
 - Farbverlauf
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Statistiken-Karte anpassen
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=CoffeeBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Repo-Karte(Extra-Pin) anpassen
 
@@ -324,7 +324,7 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 - Top Programmiersprachen
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -337,7 +337,7 @@ Wähle Eines von den [Standard-Themes](#themes)
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=convoychat" />
 </a>
 ```
 

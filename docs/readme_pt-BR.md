@@ -95,7 +95,7 @@ Copie e cole isso no seu conteúdo de remarcação e é isso. Simples!
 Mude o valor de `?username=` para o seu nome de usuário no GitHub.
 
 ```md
-[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Nota: As classificações são baseadas nas estatísticas do usuário, veja [src/calculateRank.js](../src/calculateRank.js)_
@@ -107,7 +107,7 @@ Para ocultar estatísticas individualmente, você pode passar um parâmetro de c
 > Opções: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=contribs,prs)
 ```
 
 ### Adicionando contagem de contribuições privadas à contagem total de commits
@@ -119,7 +119,7 @@ _Nota: Se você estiver implantando este projeto, as contribuições privadas se
 > Opções: `&count_private=true`
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&count_private=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&count_private=true)
 ```
 
 ### Exibindo ícones
@@ -127,7 +127,7 @@ _Nota: Se você estiver implantando este projeto, as contribuições privadas se
 Para habilitar ícones, basta utilizar o parâmetro `show_icons=true` na sua requisição, da seguinte forma:
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true)
 ```
 
 ### Temas
@@ -137,7 +137,7 @@ Com temas predefinidos, pode personalizar a aparência dos cartões sem precisar
 Utilize o parâmetro `?theme=THEME_NAME`, da seguinte forma:
 
 ```md
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 ```
 
 #### Todos os temas predefinidos :
@@ -226,10 +226,10 @@ _Nota: As principais linguagens de programação não fazem declarações sobre 
 
 Copie e cole esse código no seu README.md e altere os atributos.
 
-Endpoint: `api/top-langs?username=coffee`
+Endpoint: `api/top-langs?username=CoffeeBit`
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Ocultar linguagens individualmente
@@ -237,7 +237,7 @@ Endpoint: `api/top-langs?username=coffee`
 Utilize o parâmetro `?hide=language1,language2` para ocultar linguagens específicas.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Layout de cartão de linguagens compacto
@@ -245,16 +245,16 @@ Utilize o parâmetro `?hide=language1,language2` para ocultar linguagens especí
 Utilize a opção `&layout=compact` para mudar o layout do cartão.
 
 ```md
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demonstração
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 - Layout compacto
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # Estatística semanal Wakatime
 
@@ -278,29 +278,29 @@ Altere o valor de `?username=` para o seu username do Wakatime.
 
 - Padronizado
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit)
 
 - Ocultando estatísticas específicas
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=contribs,issues)
 
 - Mostrando ícones
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&hide=issues&show_icons=true)
 
 - Incluir todos os commits
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&include_all_commits=true)
 
 - Temas
 
 Escolha entre um dos [temas predefinidos](#temas)
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
 
 - Personalizando o cartão de estatísticas
 
-![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=CoffeeBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Customizando o cartão de repositório
 
@@ -308,7 +308,7 @@ Escolha entre um dos [temas predefinidos](#temas)
 
 - Principais linguagens
 
-[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -321,7 +321,7 @@ Por padrão, você não poderá organizar as imagens lado a lado. Para fazer iss
   <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=CoffeeBit&repo=convoychat" />
 </a>
 ```
 

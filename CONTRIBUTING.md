@@ -38,7 +38,7 @@ _(make sure you already have a [Vercel](https://vercel.com/) account)_
 6.  Create a `.env` file in the root of the directory.
 7.  In the .env file add a new variable named `PAT_1` with your [GitHub Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
 8.  Run the command `vercel dev` to start a development server at <https://localhost:3000>.
-9.  The cards will then be available from this local endpoint (i.e. `https://localhost:3000/api?username=coffee`).
+9.  The cards will then be available from this local endpoint (i.e. `https://localhost:3000/api?username=CoffeeBit`).
 
 > [!NOTE]\
 > You can debug the package code in [Vscode](https://code.visualstudio.com/) by using the [Node.js: Attach to process](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_setting-up-an-attach-configuration) debug option. You can also debug any tests using the [VSCode Jest extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest). For more information, see https://github.com/jest-community/vscode-jest/issues/912.
