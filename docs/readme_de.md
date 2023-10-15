@@ -94,7 +94,7 @@ Kopiere folgendes in deine Readme um die Statistiken zu benutzen.
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutzername steht.
 
 ```md
-[![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Hinweis: Die Berechnung des Ranges basiert auf den jeweiligen Benutzerstatistiken, siehe [src/calculateRank.js](../src/calculateRank.js)_
@@ -106,7 +106,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 > Optionen: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=["contribs","prs"])
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=["contribs","prs"])
 ```
 
 ### Symbole anzeigen
@@ -114,7 +114,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 Um Symbole anzuzeigen kann der URL-Parameter `show_icons=true` wie folgt verwendet werden:
 
 ```md
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true)
 ```
 
 ### Erscheinungsbild/Themes
@@ -124,7 +124,7 @@ Mithilfe der eingebauten Themes kann das Aussehen der Karten verändern werden, 
 Benutze den `?theme=THEME_NAME`-Parameter wie folgt :-
 
 ```md
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 ```
 
 #### Alle eingebauten Themes :-
@@ -214,16 +214,16 @@ Den Wert des URL-Parameters `?repo=` musst du so anpassen, dass dort der Namen d
 Endpunkt: `api/pin?username=coffee&repo=mdstats`
 
 ```md
-[![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Beispiele
 
-[![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
 
 Benutze die [show_owner](#anpassungenpersonalisierung) Variable, um den Nutzernamen des Repository-Eigentümers anzuzeigen.
 
-[![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # Top Programmiersprachen-Karte
 
@@ -239,7 +239,7 @@ Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutz
 Endpunkt: `api/top-langs?username=coffee`
 
 ```md
-[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Verbirg einzelne Sprachen
@@ -247,7 +247,7 @@ Endpunkt: `api/top-langs?username=coffee`
 Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sprachen auszublenden.
 
 ```md
-[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Kompaktes Sprachen-Karte Layout
@@ -255,34 +255,34 @@ Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sp
 Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 ```md
-[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Beispiel
 
-[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Kompaktes Layout
 
-[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # Wakatime Wochen-Statistik
 
 Ändere `?username=` in den eigenen [Wakatime](https://wakatime.com)-Benutzernamen.
 
 ```md
-[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://coffeestats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Beispiel
 
-[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://coffeestats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
-[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://coffeestats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
 
 - Kompaktes Layout
 
-[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://coffeestats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -290,41 +290,41 @@ Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 - Default
 
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee)
 
 - Ausblenden bestimmter Statistiken
 
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=["contribs","issues"])
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=["contribs","issues"])
 
 - Symbole anzeigen
 
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=["issues"]&show_icons=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&hide=["issues"]&show_icons=true)
 
 - Alle Beiträge anzeigen
 
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&include_all_commits=true)
 
 - Erscheinungsbild/Themes
 
 Wähle Eines von den [Standard-Themes](#themes)
 
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 
 - Farbverlauf
 
-![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Statistiken-Karte anpassen
 
-![Coffee's GitHub stats](https://mdstats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://coffeestats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Repo-Karte(Extra-Pin) anpassen
 
-![Customized Card](https://mdstats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://coffeestats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top Programmiersprachen
 
-[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://coffeestats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -334,10 +334,10 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://coffeestats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
 
@@ -345,7 +345,7 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 #### [Schritt für Schritt YouTube Tutorial by @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Da die GitHub API nur 5 Tsd. Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://mdstats.vercel.app/api` dieses Limit erreicht.
+Da die GitHub API nur 5 Tsd. Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://coffeestats.vercel.app/api` dieses Limit erreicht.
 Wenn du es auf deinem eigenen Vercel-Server hostest, brauchst du dich darum nicht zu kümmern. Klicke auf den Deploy-Knopf um loszulegen!
 
 Hinweis: Seit [#58](https://github.com/CoffeeBit/coffeestats/pull/58) sollte es möglich sein, mehr als 5 Tsd Aufrufe pro Stunde ohne Downtimes zu verkraften :D
