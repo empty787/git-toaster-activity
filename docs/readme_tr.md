@@ -97,7 +97,7 @@ Alt kısımdaki kodu Kopyalayın ve yapıştırın. İşte bu kadar. Çok basit!
 `?username=` değerini kendi GitHub kullanıcı adınız ile değiştirin.
 
 ```md
-[![Coffee'nın GitHub İstatistikleri](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee'nın GitHub İstatistikleri](https://mdstats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 _Not: Şu sıralamalar mevcut: S+ (en üst 1%), S (en üst 25%), A++ (en üst 45%), A+ (en üst 60%), and B+ (herkes).
 Buradaki değerler [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) ile hesaplanırken; commitler, katkılar, hatalar, yıldızlar, çekme istekleri, takipçiler ve sahip olunan depolar (repository) göz önünde bulundurulamaktadır.
@@ -110,7 +110,7 @@ Bazı belirli istatistikleri gizlemek için `?hide=` paremetresi içerisinde vir
 > Örnek: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&hide=contribs,prs)
+![mustafacagri's github stats](https://mdstats.vercel.app/api?username=mustafacagri&hide=contribs,prs)
 ```
 
 ### Özel Katkı Sayısını Toplam Commit Sayısına Ekleme
@@ -122,7 +122,7 @@ _Not: Eğer projeyi kendiniz yayınlayıp kullanacaksanız, özel depolardaki ge
 > Örnek: `&count_private=true`
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&count_private=true)
+![mustafacagri's github stats](https://mdstats.vercel.app/api?username=mustafacagri&count_private=true)
 ```
 
 ### İkonları Göstermek
@@ -130,7 +130,7 @@ _Not: Eğer projeyi kendiniz yayınlayıp kullanacaksanız, özel depolardaki ge
 Eğer ikonları göstermek istiyorsanız, `show_icons=true` parametresini göndermeniz gerekmektedir. Örnek olarak:
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true)
+![mustafacagri's github stats](https://mdstats.vercel.app/api?username=mustafacagri&show_icons=true)
 ```
 
 ### Temalar
@@ -140,7 +140,7 @@ Dahili olarak gelen temalarla, herhangi bir [manuel özelleştirme](#özelleşti
 `?theme=THEME_NAME` parametresini kullanabilirsiniz:
 
 ```md
-![mustafacagri's github stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
+![mustafacagri's github stats](https://mdstats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
 ```
 
 #### Tüm Dahili Temalar :-
@@ -228,25 +228,25 @@ Hey! Artık 6 pin ile kısıtlı kalmayacaksınız!
 
 Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın.
 
-Endpoint: `api/pin?username=mustafacagri&repo=github-readme-stats`
+Endpoint: `api/pin?username=mustafacagri&repo=mdstats`
 
 ```md
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
+[![ReadMe Kartı](https://mdstats.vercel.app/api/pin/?username=mustafacagri&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
+[![ReadMe Kartı](https://mdstats.vercel.app/api/pin/?username=mustafacagri&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
 
 [show_owner](#özelleştirmeler) ile reponun sahibini gösterebilirsiniz.
 
-[![ReadMe Kartı](https://github-readme-stats.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![ReadMe Kartı](https://mdstats.vercel.app/api/pin/?username=mustafacagri&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # En Çok Kullanılan Diller
 
 En çok kullanılan diller kartı kullanıcının en çok kullandığı dilleri gösterir.
 
-_NOTE: En çok kullanılan dillerde yer alan bilgiler sizin yeteneğinizi ve benzeri şeyleri göstermek. Bu, kodlarınızda en çok kullandığınız dilleri gösteren bir GitHub metriğidir. Ayrıca, github-readme-stats'ın yeni özelliğidir.
+_NOTE: En çok kullanılan dillerde yer alan bilgiler sizin yeteneğinizi ve benzeri şeyleri göstermek. Bu, kodlarınızda en çok kullandığınız dilleri gösteren bir GitHub metriğidir. Ayrıca, mdstats'ın yeni özelliğidir.
 
 ### Kullanım
 
@@ -255,7 +255,7 @@ Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın
 Endpoint: `api/top-langs?username=mustafacagri`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Belirli Repoları Çıkartın
@@ -263,7 +263,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?exclude_repo=repo1,repo2` parametresini kullanarak istediğiniz repoları çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&exclude_repo=github-readme-stats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&exclude_repo=mdstats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Belirli Dilleri Çıkartın
@@ -271,7 +271,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?hide=language1,language2` parametresini kullanarak istediğiniz dilleri çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Daha Fazla Dil Gösterin
@@ -279,7 +279,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&langs_count=` parametresini kullanarak kartınızda gösterilen dil sayısını azaltabilir ya da artırabilirsiniz. Varsayılan değeri 5, kullanılabilir sayı aralığı ise 1-10'dur.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Kompakt Dil Kartı Düzeni
@@ -287,34 +287,34 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&layout=compact` parametresiyle kart tasarımınızı değiştirebilirsiniz.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/CoffeeBit/coffeestats)
 
 - Kompakt Düzen / Layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # Wakatime Haftalık İstatistikler
 
 `?username=` değerini [Wakatime](https://wakatime.com)'daki kullanıcı adınızla değiştirin.
 
 ```md
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
 
 - Kompakt Düzen
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -322,49 +322,49 @@ Endpoint: `api/top-langs?username=mustafacagri`
 
 - Varsayılan
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee)
 
 - Belirli istatistikler gizli
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=contribs,issues)
 
 - İkonlar gösteriliyor
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
 
 - Tüm commitler dahil
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&include_all_commits=true)
 
 - Temalar
 
 [default themes](#themes) adresinden istediğiniz temayı seçin.
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
 
 - Gradient
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - İstatistik Kartını Düzenleyin
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Kartın dilini seçin
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&locale=es)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api/?username=coffee&locale=es)
 
 - Repo kartı düzenleyin
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=coffee&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://mdstats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - En çok kullanılan diller
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Wakatime kart
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -374,10 +374,10 @@ Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaş�
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
 
@@ -386,7 +386,7 @@ Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaş�
 
 #### [@codeSTACKr'ın Yayınladığı Video Eğitimine Göz Atın](https://youtu.be/n6d4KHSKqGk?t=107)
 
-GitHub API saatte sadece 5.000 isteğe izin verdiği için `https://github-readme-stats.vercel.app/api` adresindeki API'm bu limite muhtemelen takılmış olabilir. Eğer projeyi kendi Vercel sunucunuzda yayınlarsanız, böyle bir sorun yaşamayabilirsiniz. Deploy butonuna tıkla ve deploy başlasın!
+GitHub API saatte sadece 5.000 isteğe izin verdiği için `https://mdstats.vercel.app/api` adresindeki API'm bu limite muhtemelen takılmış olabilir. Eğer projeyi kendi Vercel sunucunuzda yayınlarsanız, böyle bir sorun yaşamayabilirsiniz. Deploy butonuna tıkla ve deploy başlasın!
 
 
 NOT: [#58](https://github.com/CoffeeBit/coffeestats/pull/58) geliştirmesi sonrasında anlamadığımız bir şekilde 5.000 istek limitine takılmıyoruz :)
@@ -422,7 +422,7 @@ bu zaman alıyor. Destekleriniz sayesinde bu hizmeti ücretsiz olarak kullanabil
 
 Ayrıca, bu projeyi kullanıyor ve memnunsanız veya sadece bir şeyler yaratmaya devam etmem için beni teşvik etmek istiyorsanız, bunu yapmanın birkaç yolu var: -
 
-- Readme'nizde github-readme-stats'ı kullanırken bu projeye uygun bir link verebilirsiniz.
+- Readme'nizde mdstats'ı kullanırken bu projeye uygun bir link verebilirsiniz.
 - Projeye yıldız verebilir ve paylaşabilirsiniz :rocket:
 - [![paypal.me/coffee](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/coffee) - PayPal ile tek seferlik bağış yapabilirsiniz. Muhtemelen bir ~~kahve~~ ya da çay :tea: alacağım. 
 

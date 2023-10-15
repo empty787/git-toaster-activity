@@ -1,4 +1,4 @@
-# Contributing to [github-readme-stats](https://github.com/CoffeeBit/coffeestats)
+# Contributing to [mdstats](https://github.com/CoffeeBit/coffeestats)
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -17,17 +17,17 @@ Pull requests are the best way to propose changes. We actively welcome your pull
 3.  If you've changed APIs, update the documentation.
 4.  Issue that pull request!
 
-## Under the hood of github-readme-stats
+## Under the hood of mdstats
 
-Interested in diving deeper into understanding how github-readme-stats works?
+Interested in diving deeper into understanding how mdstats works?
 
 [Bohdan](https://github.com/Bogdan-Lyashenko) wrote a fantastic in-depth post about it, check it out:
 
-**[Under the hood of github-readme-stats project](https://codecrumbs.io/library/github-readme-stats)**
+**[Under the hood of mdstats project](https://codecrumbs.io/library/mdstats)**
 
 ## Local Development
 
-To run & test github-readme-stats, you need to follow a few simple steps:-
+To run & test mdstats, you need to follow a few simple steps:-
 _(make sure you already have a [Vercel](https://vercel.com/) account)_
 
 1.  Install [Vercel CLI](https://vercel.com/download).

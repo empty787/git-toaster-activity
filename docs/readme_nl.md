@@ -97,7 +97,7 @@ Kopieer en plak dit in je markdown content, zo simpel is het!
 Verander de waarde `?username=` naar jou gebruikersnaam.
 
 ```md
-[![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 _Notitie: Beschikbare rangen zijn S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (iedereen).
@@ -112,7 +112,7 @@ Om specifieke statistieken te verbergen, kan je een `?hide=` query parameter toe
 > Opties: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=contribs,prs)
 ```
 
 ### Voeg privé contributies toe aan totale commits.
@@ -124,7 +124,7 @@ _Notitie: Als je dit project zelf deployt, zullen de privé contributies standaa
 > Opties: `&count_private=true`
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&count_private=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&count_private=true)
 ```
 
 ### Laat icoontjes zien
@@ -132,7 +132,7 @@ _Notitie: Als je dit project zelf deployt, zullen de privé contributies standaa
 Om icoontjes te gebruiken kan je `show_icons=true` gebruiken in de query parameter, zoals hier:
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true)
 ```
 
 ### Thema\'s
@@ -142,7 +142,7 @@ Met ingebouwde thema\'s kan je het uiterlijk van de kaart aanpassen zonder enige
 Gebruik `?theme=THEME_NAME` parameters zo :-
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 ```
 
 #### Alle ingeboude thema\'s :-
@@ -228,25 +228,25 @@ Joepie! Je bent niet langer aan 6 pins gelimiteerd!
 
 Kopieer en plak deze code in je readme en verander de links.
 
-Eindpunt: `api/pin?username=coffee&repo=github-readme-stats`
+Eindpunt: `api/pin?username=coffee&repo=mdstats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
 
 Gebruikt [show_owner](#customization) variabele om de repo\'s eigenaar toe te voegen
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
 
 # Top Programmeertalen Kaart
 
 De top programmeertalen kaart laat zien welke talen een GitHub gebruiker het meest gebruikt.
 
-_Notitie: Top programmeertalen wijzen niet op een vaardigheids niveau, het is puur een GitHub metriek over welke talen de meeste code op GitHub hebben. Het is een nieuwe funktie van github-readme-stats._
+_Notitie: Top programmeertalen wijzen niet op een vaardigheids niveau, het is puur een GitHub metriek over welke talen de meeste code op GitHub hebben. Het is een nieuwe funktie van mdstats._
 
 ### Gebruik
 
@@ -256,7 +256,7 @@ Kopieer en plak deze code in je readme en verander de links.
 Eindpunt: `api/top-langs?username=coffee`
 
 ```md
-[![Top Talen](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Talen](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Verberg individueele repositories
@@ -264,7 +264,7 @@ Eindpunt: `api/top-langs?username=coffee`
 Je kan de parameter `?exclude_repo=repo1,repo2` gebruiken om individueele repositories te verbergen.
 
 ```md
-[![Top Talen](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&exclude_repo=github-readme-stats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
+[![Top Talen](https://mdstats.vercel.app/api/top-langs/?username=coffee&exclude_repo=mdstats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Verberg individueele talen
@@ -272,7 +272,7 @@ Je kan de parameter `?exclude_repo=repo1,repo2` gebruiken om individueele reposi
 Je kan de `?hide=taal1,taal2` parameter gebruiken om individuele programmeer talen te verbergen.
 
 ```md
-[![Top Talen](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Talen](https://mdstats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Laat meer programmeertalen zien
@@ -280,7 +280,7 @@ Je kan de `?hide=taal1,taal2` parameter gebruiken om individuele programmeer tal
 Je kan de `&langs_count=` optie gebruiken om de hoeveelheid talen op je kaart groter en kleiner te maken. Geldige waardes zijn tussen de 1 en 10 (inclusief), en de standaard waarde is 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Compacte Talen Kaart opmaak
@@ -288,30 +288,30 @@ Je kan de `&langs_count=` optie gebruiken om de hoeveelheid talen op je kaart gr
 Je kan de `&layout=compact` optie gebruiken om het kaart ontwerp aan te passen.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Top programmeertalen](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top programmeertalen](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Compacte opmaak
 
-[![Top programmeertalen](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top programmeertalen](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=compact)](https://github.com/CoffeeBit/coffeestats)
 
 # Wekelijkse Wakatime Statistieken
 
 Verander de `?username=` waarde naar je [Wakatime](https://wakatime.com) gebruikersnaam.
 
 ```md
-[![Harlok's Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's Wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-[![Harlok's Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's Wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
-[![Harlok's Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's Wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -319,49 +319,49 @@ Verander de `?username=` waarde naar je [Wakatime](https://wakatime.com) gebruik
 
 - Standaard
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee)
 
 - Verberg specifieke statestieken
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,issues)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=contribs,issues)
 
 - Weergeef icoontjes
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=issues&show_icons=true)
 
 - Voeg alle commits toe
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&include_all_commits=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&include_all_commits=true)
 
 - Thema\'s
 
 Kies uit de [standaard thema\'s](#themes)
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 
 - Kleurenverloop
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Pas statistieken kaart aan
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api/?username=coffee&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Stel je kaart locale (taal) in
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee&locale=es)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api/?username=coffee&locale=es)
 
 - Pas repo kaart aan.
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=coffee&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://mdstats.vercel.app/api/pin?username=coffee&repo=mdstats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top programmeertalen
 
-[![Top Programmeertalen](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Programmeertalen](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 
 - Wakatime kaart
 
-[![Harlok's Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's Wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 
 ---
 
@@ -371,10 +371,10 @@ Meestal kan je de afbeeldingen niet naast elkaar zetten, op deze manier wel:
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
 
@@ -382,7 +382,7 @@ Meestal kan je de afbeeldingen niet naast elkaar zetten, op deze manier wel:
 
 #### [Check de stapsgewijze video tutorial door @codeSTACKr (In het Engels)](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Sinds de GitHub API alleen maar 5k verzoeken per uur toestaat, zou mijn `https://github-readme-stats.vercel.app/api` mogelijk de rate limiet behalen. Als je het op je eigen Vercel server host, dan hoef je je nergens zorgen om te maken. Klik op de deploy knop om te beginnen!
+Sinds de GitHub API alleen maar 5k verzoeken per uur toestaat, zou mijn `https://mdstats.vercel.app/api` mogelijk de rate limiet behalen. Als je het op je eigen Vercel server host, dan hoef je je nergens zorgen om te maken. Klik op de deploy knop om te beginnen!
 
 NOTITIE: Sinds [#58](https://github.com/CoffeeBit/coffeestats/pull/58) zouden we geen problemen meer moeten hebben de 5k verzoeken per uur, en verdere downtime :D
 
@@ -415,7 +415,7 @@ Ik maak bijna alles open-source wat ik kan, en ik probeer iedereen te helpen die
 
 Hoe dan ook, als je dit project gebruikt en er blij mee bent, of mij wilt aanmoedigen om dingen te blijven maken, zijn er een paar manieren om dit te doen; -
 
-- Credits geven aan github-readme-stats op je readme, die terug naar het project linkt :D
+- Credits geven aan mdstats op je readme, die terug naar het project linkt :D
 - Sterren en delen van het project :rocket:
 - [![paypal.me/coffee](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/coffee) - Je kan eenmalig giften via PayPal, ik koop er waarschijnlijk ~~koffie~~ thee van. :tea:
 

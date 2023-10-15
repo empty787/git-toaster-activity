@@ -124,9 +124,9 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 # Important Notices <!-- omit in toc -->
 
 > [!IMPORTANT]\
-> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/CoffeeBit/coffeestats/issues/1471)). We use caching to prevent this from happening (see https://github.com/CoffeeBit/coffeestats#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
+> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://mdstats.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/CoffeeBit/coffeestats/issues/1471)). We use caching to prevent this from happening (see https://github.com/CoffeeBit/coffeestats#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
 
-<img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub-readme-stats-git-monitoring-github-readme-stats-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
+<img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fmdstats-git-monitoring-mdstats-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
 
 > [!IMPORTANT]\
 > We're a small team, and to prioritize, we rely on upvotes :+1:. We use Top issues dashboard for tracking community demand (see [#1935](https://github.com/CoffeeBit/coffeestats/issues/1935)). Do not hesitate to upvote the issues and pull requests you are interested in. We will work on the most upvoted first.
@@ -138,7 +138,7 @@ Copy-paste this into your markdown content, and that is it. Simple!
 Change the `?username=` value to your GitHub username.
 
 ```md
-[![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 > [!WARNING]\
@@ -154,7 +154,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&hide=contribs,prs)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&hide=contribs,prs)
 ```
 
 ### Showing additional individual stats
@@ -164,7 +164,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
 ### Showing icons
@@ -172,7 +172,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true)
 ```
 
 ### Themes
@@ -182,7 +182,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes
@@ -195,8 +195,8 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 #### Responsive Card Theme
 
-[![Coffee's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/CoffeeBit/coffeestats#responsive-card-theme#gh-dark-mode-only)
-[![Coffee's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/CoffeeBit/coffeestats#responsive-card-theme#gh-light-mode-only)
+[![Coffee's GitHub stats-Dark](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/CoffeeBit/coffeestats#responsive-card-theme#gh-dark-mode-only)
+[![Coffee's GitHub stats-Light](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/CoffeeBit/coffeestats#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -205,13 +205,13 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=transparent)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=transparent)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&theme=transparent)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&theme=transparent)
 
 </details>
 
@@ -220,13 +220,13 @@ We have included a `transparent` theme that has a transparent background. This t
 You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
 
 ```md
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&bg_color=00000000)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee&show_icons=true&bg_color=00000000)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&bg_color=00000000)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&bg_color=00000000)
 
 </details>
 
@@ -235,15 +235,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Coffee's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-dark-mode-only)
-[![Coffee's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-light-mode-only)
+[![Coffee's GitHub stats-Dark](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-dark-mode-only)
+[![Coffee's GitHub stats-Light](https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-light-mode-only)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-[![Coffee's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-dark-mode-only)
-[![Coffee's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-light-mode-only)
+[![Coffee's GitHub stats-Dark](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-dark-mode-only)
+[![Coffee's GitHub stats-Light](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/CoffeeBit/coffeestats#gh-light-mode-only)
 
 </details>
 
@@ -254,14 +254,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 ```html
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=dark"
+    srcset="https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true"
+    srcset="https://mdstats.vercel.app/api?username=coffee&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true" />
+  <img src="https://mdstats.vercel.app/api?username=coffee&show_icons=true" />
 </picture>
 ```
 
@@ -270,14 +270,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true&theme=dark"
+    srcset="https://mdstats.vercel.app/api?username=coffee&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true"
+    srcset="https://mdstats.vercel.app/api?username=coffee&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=coffee&show_icons=true" />
+  <img src="https://mdstats.vercel.app/api?username=coffee&show_icons=true" />
 </picture>
 
 </details>
@@ -433,19 +433,19 @@ Yay! You are no longer limited to 6 pinned repositories.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/pin?username=coffee&repo=github-readme-stats`
+Endpoint: `api/pin?username=coffee&repo=mdstats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee\&repo=github-readme-stats)
+![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee\&repo=mdstats)
 
 Use [show\_owner](#repo-card-exclusive-options) query option to include the repo's owner username
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=coffee\&repo=github-readme-stats\&show_owner=true)
+![Readme Card](https://mdstats.vercel.app/api/pin/?username=coffee\&repo=mdstats\&show_owner=true)
 
 # GitHub Gist Pins
 
@@ -458,16 +458,16 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
 
 ```md
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
+[![Gist Card](https://mdstats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
 ```
 
 ### Demo
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://mdstats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 Use [show\_owner](#gist-card-exclusive-options) query option to include the gist's owner username
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
+![Gist Card](https://mdstats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
 
 # Top Languages Card
 
@@ -477,7 +477,7 @@ The top languages card shows a GitHub user's most frequently used languages.
 > By default, the language card shows language results only from public repositories. To include languages used in private repositories, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
 
 > [!NOTE]\
-> Top Languages does not indicate the user's skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub. It is a new feature of github-readme-stats.
+> Top Languages does not indicate the user's skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub. It is a new feature of mdstats.
 
 > [!WARNING]\
 > This card shows languages usage only inside your own non-forked repositories, not depending from who is the author of the commits. It does not include your contributions into another users/organizations repositories. Currently there are no way to get this data from GitHub API. If you want this behavior to be improved you can support [this feature request](https://github.com/orgs/community/discussions/18230) created by [@rickstaa](https://github.com/rickstaa) inside GitHub Community.
@@ -492,7 +492,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/top-langs?username=coffee`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Language stats algorithm
@@ -510,7 +510,7 @@ By default, only the byte count is used for determining the languages percentage
 *   `&size_weight=0&count_weight=1` - Orders by repo count
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&size_weight=0.5&count_weight=0.5)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&size_weight=0.5&count_weight=0.5)
 ```
 
 ### Exclude individual repositories
@@ -518,7 +518,7 @@ By default, only the byte count is used for determining the languages percentage
 You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&exclude_repo=github-readme-stats,coffee.github.io)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&exclude_repo=mdstats,coffee.github.io)
 ```
 
 ### Hide individual languages
@@ -526,7 +526,7 @@ You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repo
 You can use `&hide=language1,language2` parameter to hide individual languages.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&hide=javascript,html)
 ```
 
 ### Show more languages
@@ -534,7 +534,7 @@ You can use `&hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&langs_count=8)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&langs_count=8)
 ```
 
 ### Compact Language Card Layout
@@ -542,7 +542,7 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 You can use the `&layout=compact` option to change the card design.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=compact)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=compact)
 ```
 
 ### Donut Chart Language Card Layout
@@ -550,7 +550,7 @@ You can use the `&layout=compact` option to change the card design.
 You can use the `&layout=donut` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=donut)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=donut)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Donut Vertical Chart Language Card Layout
@@ -558,7 +558,7 @@ You can use the `&layout=donut` option to change the card design.
 You can use the `&layout=donut-vertical` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=donut-vertical)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=donut-vertical)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Pie Chart Language Card Layout
@@ -566,7 +566,7 @@ You can use the `&layout=donut-vertical` option to change the card design.
 You can use the `&layout=pie` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&layout=pie)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&layout=pie)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Hide Progress Bars
@@ -574,32 +574,32 @@ You can use the `&layout=pie` option to change the card design.
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee&hide_progress=true)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee&hide_progress=true)
 ```
 
 ### Demo
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee)
 
 *   Compact layout
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee\&layout=compact)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee\&layout=compact)
 
 *   Donut Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee\&layout=donut)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee\&layout=donut)](https://github.com/CoffeeBit/coffeestats)
 
 *   Donut Vertical Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee\&layout=donut-vertical)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee\&layout=donut-vertical)](https://github.com/CoffeeBit/coffeestats)
 
 *   Pie Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee\&layout=pie)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee\&layout=pie)](https://github.com/CoffeeBit/coffeestats)
 
 *   Hidden progress bars
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee\&hide_progress=true)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee\&hide_progress=true)
 
 # Wakatime Stats Card
 
@@ -609,18 +609,18 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 ```md
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
 ```
 
 ### Demo
 
-![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)
 
-![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
 
 *   Compact layout
 
-![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
 
 ***
 
@@ -628,73 +628,73 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 *   Default
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee)
 
 *   Hiding specific stats
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&hide=contribs,issues)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&hide=contribs,issues)
 
 *   Showing additional stats
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 *   Showing icons
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&hide=issues\&show_icons=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&hide=issues\&show_icons=true)
 
 *   Shows Github logo instead rank level
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&rank_icon=github)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&rank_icon=github)
 
 *   Shows user rank percentile instead of rank level
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&rank_icon=percentile)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&rank_icon=percentile)
 
 *   Customize Border Color
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&border_color=2e4058)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&border_color=2e4058)
 
 *   Include All Commits
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&include_all_commits=true)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&include_all_commits=true)
 
 *   Themes
 
 Choose from any of the [default themes](#themes)
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&show_icons=true\&theme=radical)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&show_icons=true\&theme=radical)
 
 *   Gradient
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api?username=coffee\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api?username=coffee\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 
 *   Customizing stats card
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api/?username=coffee\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
 
 *   Setting card locale
 
-![Coffee's GitHub stats](https://github-readme-stats.vercel.app/api/?username=coffee\&locale=es)
+![Coffee's GitHub stats](https://mdstats.vercel.app/api/?username=coffee\&locale=es)
 
 *   Customizing repo card
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=coffee\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+![Customized Card](https://mdstats.vercel.app/api/pin?username=coffee\&repo=mdstats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
 
 *   Gist card
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://mdstats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 *   Customizing gist card
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
+![Gist Card](https://mdstats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
 
 *   Top languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coffee)
+![Top Langs](https://mdstats.vercel.app/api/top-langs/?username=coffee)
 
 *   WakaTime card
 
-![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's wakatime stats](https://mdstats.vercel.app/api/wakatime?username=ffflabs)
 
 ***
 
@@ -704,19 +704,19 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=coffee" />
+  <img height=200 align="center" src="https://mdstats.vercel.app/api?username=coffee" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=coffee&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://mdstats.vercel.app/api/top-langs?username=coffee&layout=compact&langs_count=8&card_width=320" />
 </a>
 ```
 
 ```html
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 ```
 
@@ -724,19 +724,19 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=coffee" />
+  <img height=200 align="center" src="https://mdstats.vercel.app/api?username=coffee" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=coffee&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://mdstats.vercel.app/api/top-langs?username=coffee&layout=compact&langs_count=8&card_width=320" />
 </a>
 
 ***
 
 <a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=github-readme-stats" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=mdstats" />
 </a>
 <a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
+  <img align="center" src="https://mdstats.vercel.app/api/pin/?username=coffee&repo=convoychat" />
 </a>
 
 </details>
@@ -747,7 +747,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ### :film\_projector: [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
+Since the GitHub API only allows 5k requests per hour, my `https://mdstats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
 
 > [!NOTE]\
 > Since [#58](https://github.com/CoffeeBit/coffeestats/pull/58), we should be able to handle more than 5k requests and have fewer issues with downtime :grin:.
@@ -815,7 +815,7 @@ this takes time. You can use this service for free.
 
 However, if you are using this project and are happy with it or just want to encourage me to continue creating stuff, there are a few ways you can do it:
 
-*   Giving proper credit when you use github-readme-stats on your readme, linking back to it :D
+*   Giving proper credit when you use mdstats on your readme, linking back to it :D
 *   Starring and sharing the project :rocket:
 *   [![paypal.me/coffee](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/coffee) - You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
 
