@@ -14,7 +14,7 @@ import "@testing-library/jest-dom";
 import { themes } from "../themes/index.js";
 
 const stats = {
-  name: "Coffee",
+  name: "Toast",
   totalStars: 100,
   totalCommits: 200,
   totalIssues: 300,
@@ -33,7 +33,7 @@ describe("Test renderStatsCard", () => {
     document.body.innerHTML = renderStatsCard(stats);
 
     expect(document.getElementsByClassName("header")[0].textContent).toBe(
-      "Coffee's GitHub Stats",
+      "Toast's GitHub Stats",
     );
 
     expect(
@@ -375,7 +375,7 @@ describe("Test renderStatsCard", () => {
   it("should render translations", () => {
     document.body.innerHTML = renderStatsCard(stats, { locale: "cn" });
     expect(document.getElementsByClassName("header")[0].textContent).toBe(
-      "Coffee 的 GitHub 统计数据",
+      "Toast 的 GitHub 统计数据",
     );
     expect(
       document.querySelector(

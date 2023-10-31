@@ -4,7 +4,7 @@
 
 import { getInput } from "@actions/core";
 
-const OWNER = "coffee";
+const OWNER = "toast";
 const REPO = "mdstats";
 
 /**

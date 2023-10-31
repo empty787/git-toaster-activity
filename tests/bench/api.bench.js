@@ -5,7 +5,7 @@ import MockAdapter from "axios-mock-adapter";
 import { jest } from "@jest/globals";
 
 const stats = {
-  name: "Coffee",
+  name: "Toast",
   totalStars: 100,
   totalCommits: 200,
   totalIssues: 300,
@@ -54,7 +54,7 @@ const mock = new MockAdapter(axios);
 const faker = (query, data) => {
   const req = {
     query: {
-      username: "coffee",
+      username: "toast",
       ...query,
     },
   };

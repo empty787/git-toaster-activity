@@ -97,14 +97,14 @@ const wakaTimeData = {
     total_seconds: 80473.135716,
     total_seconds_including_other_language: 81643.570077,
     user_id: "random hash",
-    username: "coffee",
+    username: "toast",
     writes_only: false,
   },
 };
 
 describe("Wakatime fetcher", () => {
   it("should fetch correct wakatime data", async () => {
-    const username = "coffee";
+    const username = "toast";
     mock
       .onGet(
         `https://wakatime.com/api/v1/users/${username}/stats?is_including_today=true`,

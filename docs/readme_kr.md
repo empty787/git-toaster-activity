@@ -1,26 +1,26 @@
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/coffee/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="https://res.cloudinary.com/toast/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">GitHub Readme Stats</h2>
  <p align="center">동적으로 생성되는 GitHub 사용량 통계를 여러분의 README 에 추가해보세요!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/CoffeeBit/coffeestats/actions">
-      <img alt="Tests Passing" src="https://github.com/CoffeeBit/coffeestats/workflows/Test/badge.svg" />
+    <a href="https://github.com/ToastBit/toaststats/actions">
+      <img alt="Tests Passing" src="https://github.com/ToastBit/toaststats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/CoffeeBit/coffeestats" />
+    <a href="https://github.com/ToastBit/toaststats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ToastBit/toaststats" />
     </a>
-    <a href="https://codecov.io/gh/CoffeeBit/coffeestats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/CoffeeBit/coffeestats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/ToastBit/toaststats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/ToastBit/toaststats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/CoffeeBit/coffeestats?color=0088ff" />
+    <a href="https://github.com/ToastBit/toaststats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/ToastBit/toaststats?color=0088ff" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/CoffeeBit/coffeestats?color=0088ff" />
+    <a href="https://github.com/ToastBit/toaststats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ToastBit/toaststats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/CoffeeBit/coffeestats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/CoffeeBit/coffeestats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/ToastBit/toaststats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/ToastBit/toaststats/badge" />
     </a>
     <br />
     <br />
@@ -35,9 +35,9 @@
   <p align="center">
     <a href="#미리보기">미리보기 확인</a>
     ·
-    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">버그 제보하기</a>
+    <a href="https://github.com/ToastBit/toaststats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">버그 제보하기</a>
     ·
-    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">기능 추가 요청하기</a>
+    <a href="https://github.com/ToastBit/toaststats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">기능 추가 요청하기</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -63,7 +63,7 @@
     <a href="/docs/readme_tr.md">Türkçe</a>
   </p>
 </p>
-<p align="center">기능들이 마음에 드시나요? 괜찮으시다면, 서비스 개선을 위해 <a href="https://www.paypal.me/coffee">기부</a>를 고려해주세요!
+<p align="center">기능들이 마음에 드시나요? 괜찮으시다면, 서비스 개선을 위해 <a href="https://www.paypal.me/toast">기부</a>를 고려해주세요!
 
 # 기능들 <!-- omit in toc -->
 
@@ -98,7 +98,7 @@
 `?username=` 속성의 값을 GitHub 계정의 사용자 명(닉네임)으로 바꿔주세요.
 
 ```md
-[![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit)](https://github.com/ToastBit/toaststats)
 ```
 
 _참고:_
@@ -117,7 +117,7 @@ _[src/calculateRank.js](../src/calculateRank.js) 에서 수행되는 계산 작�
 > 사용 가능한 항목들: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=contribs,prs)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=contribs,prs)
 ```
 
 ### 총 커밋 수에 비공개 기여도 (private contribs) 수 추가하기
@@ -129,7 +129,7 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 > 예시: `&count_private=true`
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&count_private=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&count_private=true)
 ```
 
 ### 아이콘 표시하기
@@ -137,7 +137,7 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 아이콘 항목을 활성화 하기 위해선, 다음과 같이 `show_icons=true` 속성을 추가해주세요.
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true)
 ```
 
 ### 테마 설정하기
@@ -147,14 +147,14 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 다음과 같이 `?theme=THEME_NAME` 속성을 이용해주세요.
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true&theme=radical)
 ```
 
 #### 지원하는 내장 테마 목록
 
 dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula
 
-<img src="https://res.cloudinary.com/coffee/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
+<img src="https://res.cloudinary.com/toast/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
 
 [사용 가능한 모든 테마](../themes/README.md) 에서 미리보기를 확인하실 수 있어요.
 
@@ -242,19 +242,19 @@ GitHub 저장소 여분 핀을 이용하면, 6개 이상의 저장소 핀을 여
 
 이 코드를 복사해서 여러분의 README 에 넣고 링크를 변경해주세요.
 
-엔드 포인트: `api/pin?username=CoffeeBit&repo=coffeestats`
+엔드 포인트: `api/pin?username=ToastBit&repo=toaststats`
 
 ```md
-[![Readme Card](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 미리보기
 
-[![GitHub 저장소 핀 카드](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
+[![GitHub 저장소 핀 카드](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats)](https://github.com/ToastBit/toaststats)
 
 [show_owner](#커스터마이징) 속성을 통해 저장소 소유자의 닉네임 표시 여부를 설정할 수 있어요.
 
-[![GitHub 저장소 핀 카드](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![GitHub 저장소 핀 카드](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats&show_owner=true)](https://github.com/ToastBit/toaststats)
 
 # 언어 사용량 통계
 
@@ -268,10 +268,10 @@ _참고:
 
 이 코드를 복사해서 여러분의 README 에 넣고 링크를 변경해주세요.
 
-엔드 포인트: `api/top-langs?username=CoffeeBit`
+엔드 포인트: `api/top-langs?username=ToastBit`
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 통계에서 제외할 저장소 지정하기
@@ -279,7 +279,7 @@ _참고:
 `?exclude_repo=repo1,repo2` 속성을 통해 특정 저장소를 제외할 수 있어요.
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&exclude_repo=mdstats,coffee.github.io)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&exclude_repo=mdstats,toast.github.io)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 통계에서 특정 언어 제외하기
@@ -287,7 +287,7 @@ _참고:
 `?hide=language1,language2` 속성을 통해 특정 언어를 제외할 수 있어요.
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&hide=javascript,html)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 표시할 언어 수 지정하기
@@ -295,7 +295,7 @@ _참고:
 `&langs_count=` 속성을 통해 카드에 표시할 언어의 수를 지정할 수 있어요. (1-10 사이, 기본 값 : 5)
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&langs_count=8)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&langs_count=8)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 컴택트한 카드 레이아웃 설정하기
@@ -303,34 +303,34 @@ _참고:
 `&layout=compact` 속성을 통해 카드의 디자인을 변경할 수 있어요.
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&layout=compact)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 미리보기
 
-[![언어 사용량 통계](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![언어 사용량 통계](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 
 - 컴팩트한 레이아웃
 
-[![언어 사용량 통계](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![언어 사용량 통계](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&layout=compact)](https://github.com/ToastBit/toaststats)
 
 # Wakatime 주간 통계
 
 `?username=` 속성의 값을 [Wakatime](https://wakatime.com) 계정의 사용자 명(닉네임)으로 바꿔주세요.
 
 ```md
-[![Harlok's wakatime stats](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 미리보기
 
-[![Harlok 님의 wakatime 통계](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok 님의 wakatime 통계](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ToastBit/toaststats)
 
-[![Harlok 님의 wakatime 통계](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok 님의 wakatime 통계](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ToastBit/toaststats)
 
 - 컴팩트한 레이아웃
 
-[![Harlok 님의 wakatime 통계](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok 님의 wakatime 통계](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ToastBit/toaststats)
 
 ---
 
@@ -338,49 +338,49 @@ _참고:
 
 - 기본
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api?username=ToastBit)
 
 - 특정 통계 내용 숨김
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=contribs,issues)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=contribs,issues)
 
 - 아이콘 표시
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=issues&show_icons=true)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=issues&show_icons=true)
 
 - 전체 커밋 포함 시
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&include_all_commits=true)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api?username=ToastBit&include_all_commits=true)
 
 - 테마들
 
 [내장 테마](#themes) 에서 직접 선택해보세요
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true&theme=radical)
 
 - 그라데이션 주기
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api?username=ToastBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - 통계 카드 커스터마이징하기
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api/?username=CoffeeBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api/?username=ToastBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - 언어 사용 지역 설정하기
 
-![Coffee 님의 GitHub 사용량 통계](https://coffeeactivitystats.vercel.app/api/?username=CoffeeBit&locale=kr)
+![Toast 님의 GitHub 사용량 통계](https://git-toaster-activity.vercel.app/api/?username=ToastBit&locale=kr)
 
 - 저장소 핀 커스터마이징하기
 
-![Coffee 님의 GitHub 저장소 핀](https://coffeeactivitystats.vercel.app/api/pin?username=CoffeeBit&repo=coffeestats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Toast 님의 GitHub 저장소 핀](https://git-toaster-activity.vercel.app/api/pin?username=ToastBit&repo=toaststats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - 언어 사용량 통계
 
-[![언어 사용량 통계](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![언어 사용량 통계](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 
 - Wakatime 카드
 
-[![Harlok 님의 Wakatime 카드](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok 님의 Wakatime 카드](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ToastBit/toaststats)
 
 ---
 
@@ -391,11 +391,11 @@ _참고:
 그럴땐, 이렇게 해보세요!
 
 ```html
-<a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
+<a href="https://github.com/ToastBit/toaststats">
+  <img align="center" src="https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats" />
 </a>
-<a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=convoychat" />
+<a href="https://github.com/ToastBit/convoychat">
+  <img align="center" src="https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=convoychat" />
 </a>
 ```
 
@@ -404,15 +404,15 @@ _참고:
 #### [@codeSTACKr 님의 튜토리얼 영상 보기](https://youtu.be/n6d4KHSKqGk?t=107)
 
 GitHub API 가 시간 당 요청 개수를 5,000회로 제한한 뒤로,
-저의 `https://coffeeactivitystats.vercel.app/api` 가 사용량 제한에 걸릴 위험이 생겼어요.
+저의 `https://git-toaster-activity.vercel.app/api` 가 사용량 제한에 걸릴 위험이 생겼어요.
 
 만약, 여러분이 Vercel server 에서 직접 호스트 하신다면, 걱정하실 일은 없을거에요.
 
 아래의 버튼을 이용해 직접 배포해보세요!
 
-참고: [#58](https://github.com/CoffeeBit/coffeestats/pull/58) 풀 리퀘스트 이후로, 저희는 5,000 개 이상의 요청을 처리할 수 있게 됐어요. 더이상 서버 다운에 대한 걱정은 노놉! :D
+참고: [#58](https://github.com/ToastBit/toaststats/pull/58) 풀 리퀘스트 이후로, 저희는 5,000 개 이상의 요청을 처리할 수 있게 됐어요. 더이상 서버 다운에 대한 걱정은 노놉! :D
 
-[![Vercel 에 배포하기](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/CoffeeBit/coffeestats)
+[![Vercel 에 배포하기](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ToastBit/toaststats)
 
 <details>
  <summary><b> 🔨 Vercel 세팅 가이드!   </b></summary>
@@ -449,7 +449,7 @@ GitHub API 가 시간 당 요청 개수를 5,000회로 제한한 뒤로,
 
 - mdstats 를 README 에 표시하실 때 확실한 도움을 주세요! 이 저장소로 링크를 걸어주시면 돼요! :D
 - 이 프로젝트를 많이 공유해주시고, 즐겨찾기 해주세요! :rocket:
-- [![paypal.me/coffee](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/coffee) - PayPal 을 이용해 1회성 도네이션을 해주실 수 있어요. 아마도 전 ~~커피, 아... 아니~~ 차를 사서 마시겠죠? ㅎ; :tea:
+- [![paypal.me/toast](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/toast) - PayPal 을 이용해 1회성 도네이션을 해주실 수 있어요. 아마도 전 ~~커피, 아... 아니~~ 차를 사서 마시겠죠? ㅎ; :tea:
 
 감사합니다! :heart:
 

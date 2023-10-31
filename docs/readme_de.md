@@ -1,27 +1,27 @@
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/coffee/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="https://res.cloudinary.com/toast/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">GitHub Readme Statistiken</h2>
  <p align="center">Zeige dynamisch generierte GitHub-Statistiken in deinen Readmes!</p>
 </p>
 
   <p align="center">
-    <a href="https://github.com/CoffeeBit/coffeestats/actions">
-      <img alt="Tests Passing" src="https://github.com/CoffeeBit/coffeestats/workflows/Test/badge.svg" />
+    <a href="https://github.com/ToastBit/toaststats/actions">
+      <img alt="Tests Passing" src="https://github.com/ToastBit/toaststats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/CoffeeBit/coffeestats" />
+    <a href="https://github.com/ToastBit/toaststats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ToastBit/toaststats" />
     </a>
-    <a href="https://codecov.io/gh/CoffeeBit/coffeestats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/CoffeeBit/coffeestats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/ToastBit/toaststats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/ToastBit/toaststats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/CoffeeBit/coffeestats?color=0088ff" />
+    <a href="https://github.com/ToastBit/toaststats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/ToastBit/toaststats?color=0088ff" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/CoffeeBit/coffeestats?color=0088ff" />
+    <a href="https://github.com/ToastBit/toaststats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ToastBit/toaststats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/CoffeeBit/coffeestats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/CoffeeBit/coffeestats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/ToastBit/toaststats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/ToastBit/toaststats/badge" />
     </a>
     <br />
     <br />
@@ -36,9 +36,9 @@
   <p align="center">
     <a href="#alle-beispiele">Beispiele ansehen</a>
     ·
-    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Fehler melden</a>
+    <a href="https://github.com/ToastBit/toaststats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Fehler melden</a>
     ·
-    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Funktion wünschen</a>
+    <a href="https://github.com/ToastBit/toaststats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Funktion wünschen</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -64,7 +64,7 @@
     <a href="/docs/readme_tr.md">Türkçe</a>
   </p>
 </p>
-<p align="center">Du magst das Projekt? Wie wäre es mit einer kleinen <a href="https://www.paypal.me/coffee">Spende</a> um es weiterhin am Leben zu erhalten?
+<p align="center">Du magst das Projekt? Wie wäre es mit einer kleinen <a href="https://www.paypal.me/toast">Spende</a> um es weiterhin am Leben zu erhalten?
 
 # Funktionen <!-- omit in toc -->
 
@@ -94,7 +94,7 @@ Kopiere folgendes in deine Readme um die Statistiken zu benutzen.
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutzername steht.
 
 ```md
-[![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit)](https://github.com/ToastBit/toaststats)
 ```
 
 _Hinweis: Die Berechnung des Ranges basiert auf den jeweiligen Benutzerstatistiken, siehe [src/calculateRank.js](../src/calculateRank.js)_
@@ -106,7 +106,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 > Optionen: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=["contribs","prs"])
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=["contribs","prs"])
 ```
 
 ### Symbole anzeigen
@@ -114,7 +114,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 Um Symbole anzuzeigen kann der URL-Parameter `show_icons=true` wie folgt verwendet werden:
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true)
 ```
 
 ### Erscheinungsbild/Themes
@@ -124,14 +124,14 @@ Mithilfe der eingebauten Themes kann das Aussehen der Karten verändern werden, 
 Benutze den `?theme=THEME_NAME`-Parameter wie folgt :-
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true&theme=radical)
 ```
 
 #### Alle eingebauten Themes :-
 
 dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula
 
-<img src="https://res.cloudinary.com/coffee/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
+<img src="https://res.cloudinary.com/toast/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
 
 Du kannst dir eine Vorschau [aller verfügbaren Themes](../themes/README.md) ansehen oder die [theme config Datei](../themes/index.js) ansehen.
 Außerdem **kannst du neue Themes erstellen**, Beiträge an diesem Projekt sind gerne gesehen! :D
@@ -211,19 +211,19 @@ Füge diesen Code in deine Readme-Datei ein und passe die Links an.
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutzername steht.
 Den Wert des URL-Parameters `?repo=` musst du so anpassen, dass dort der Namen deines Repositorys steht.
 
-Endpunkt: `api/pin?username=CoffeeBit&repo=coffeestats`
+Endpunkt: `api/pin?username=ToastBit&repo=toaststats`
 
 ```md
-[![Readme Card](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats)](https://github.com/ToastBit/toaststats)
 ```
 
 ### Beispiele
 
-[![Readme Card](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats)](https://github.com/ToastBit/toaststats)
 
 Benutze die [show_owner](#anpassungenpersonalisierung) Variable, um den Nutzernamen des Repository-Eigentümers anzuzeigen.
 
-[![Readme Card](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats&show_owner=true)](https://github.com/ToastBit/toaststats)
 
 # Top Programmiersprachen-Karte
 
@@ -236,10 +236,10 @@ _HINWEIS: Die Top Programmiersprachen treffen keine Aussage über persönliche F
 Füge diesen Code in deine Readme-Datei ein und passe die Links an.
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutzername steht.
 
-Endpunkt: `api/top-langs?username=CoffeeBit`
+Endpunkt: `api/top-langs?username=ToastBit`
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 ```
 
 ### Verbirg einzelne Sprachen
@@ -247,7 +247,7 @@ Endpunkt: `api/top-langs?username=CoffeeBit`
 Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sprachen auszublenden.
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&hide=javascript,html)](https://github.com/ToastBit/toaststats)
 ```
 
 ### Kompaktes Sprachen-Karte Layout
@@ -255,34 +255,34 @@ Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sp
 Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&layout=compact)](https://github.com/ToastBit/toaststats)
 ```
 
 ### Beispiel
 
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 
 - Kompaktes Layout
 
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&layout=compact)](https://github.com/ToastBit/toaststats)
 
 # Wakatime Wochen-Statistik
 
 Ändere `?username=` in den eigenen [Wakatime](https://wakatime.com)-Benutzernamen.
 
 ```md
-[![Harlok's wakatime stats](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ToastBit/toaststats)
 ```
 
 ### Beispiel
 
-[![Harlok's wakatime stats](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ToastBit/toaststats)
 
-[![Harlok's wakatime stats](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ToastBit/toaststats)
 
 - Kompaktes Layout
 
-[![Harlok's wakatime stats](https://coffeeactivitystats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Harlok's wakatime stats](https://git-toaster-activity.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ToastBit/toaststats)
 
 ---
 
@@ -290,41 +290,41 @@ Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 - Default
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit)
 
 - Ausblenden bestimmter Statistiken
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=["contribs","issues"])
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=["contribs","issues"])
 
 - Symbole anzeigen
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=["issues"]&show_icons=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=["issues"]&show_icons=true)
 
 - Alle Beiträge anzeigen
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&include_all_commits=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&include_all_commits=true)
 
 - Erscheinungsbild/Themes
 
 Wähle Eines von den [Standard-Themes](#themes)
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true&theme=radical)
 
 - Farbverlauf
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Statistiken-Karte anpassen
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api/?username=CoffeeBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api/?username=ToastBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Repo-Karte(Extra-Pin) anpassen
 
-![Customized Card](https://coffeeactivitystats.vercel.app/api/pin?username=CoffeeBit&repo=coffeestats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://git-toaster-activity.vercel.app/api/pin?username=ToastBit&repo=toaststats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top Programmiersprachen
 
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 
 ---
 
@@ -333,11 +333,11 @@ Wähle Eines von den [Standard-Themes](#themes)
 Üblicherweise ist es in `.md`-Dateien nicht möglich Bilder nebeneinander anzuzeigen. Um dies zu ermöglichen, kannst du folgendes tun:
 
 ```html
-<a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
+<a href="https://github.com/ToastBit/toaststats">
+  <img align="center" src="https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats" />
 </a>
-<a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=convoychat" />
+<a href="https://github.com/ToastBit/convoychat">
+  <img align="center" src="https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=convoychat" />
 </a>
 ```
 
@@ -345,12 +345,12 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 #### [Schritt für Schritt YouTube Tutorial by @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Da die GitHub API nur 5 Tsd. Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://coffeeactivitystats.vercel.app/api` dieses Limit erreicht.
+Da die GitHub API nur 5 Tsd. Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://git-toaster-activity.vercel.app/api` dieses Limit erreicht.
 Wenn du es auf deinem eigenen Vercel-Server hostest, brauchst du dich darum nicht zu kümmern. Klicke auf den Deploy-Knopf um loszulegen!
 
-Hinweis: Seit [#58](https://github.com/CoffeeBit/coffeestats/pull/58) sollte es möglich sein, mehr als 5 Tsd Aufrufe pro Stunde ohne Downtimes zu verkraften :D
+Hinweis: Seit [#58](https://github.com/ToastBit/toaststats/pull/58) sollte es möglich sein, mehr als 5 Tsd Aufrufe pro Stunde ohne Downtimes zu verkraften :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/CoffeeBit/coffeestats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ToastBit/toaststats)
 
 <details>
  <summary><b>Anleitung zum Einrichten von Vercel 🔨 </b></summary>
@@ -380,7 +380,7 @@ Wenn du dieses Projekt nutzt und zufrieden bist, kannst du dennoch Dinge tun um 
 
 - Erwähne und verlinke das Projekt in deiner Readme wenn du es benutzt :D
 - Geb dem Projekt einen Stern hier auf GitHub und teile es :rocket:
-- [![paypal.me/coffee](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/coffee) - Du kannst einmalige Spenden via PayPal tätigen. Ich kaufe mir wahrscheinlich einen ~~Kaffee~~ Tee davon. :tea:
+- [![paypal.me/toast](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/toast) - Du kannst einmalige Spenden via PayPal tätigen. Ich kaufe mir wahrscheinlich einen ~~Kaffee~~ Tee davon. :tea:
 
 Vielen Dank! :heart:
 

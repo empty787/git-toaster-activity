@@ -1,26 +1,26 @@
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/coffee/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="https://res.cloudinary.com/toast/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">GitHub Readme Stats</h2>
  <p align="center">在你的 README 中获取动态生成的 GitHub 统计信息！</p>
 </p>
   <p align="center">
-    <a href="https://github.com/CoffeeBit/coffeestats/actions">
-      <img alt="Tests Passing" src="https://github.com/CoffeeBit/coffeestats/workflows/Test/badge.svg" />
+    <a href="https://github.com/ToastBit/toaststats/actions">
+      <img alt="Tests Passing" src="https://github.com/ToastBit/toaststats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/CoffeeBit/coffeestats" />
+    <a href="https://github.com/ToastBit/toaststats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ToastBit/toaststats" />
     </a>
-    <a href="https://codecov.io/gh/CoffeeBit/coffeestats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/CoffeeBit/coffeestats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/ToastBit/toaststats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/ToastBit/toaststats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/CoffeeBit/coffeestats?color=0088ff" />
+    <a href="https://github.com/ToastBit/toaststats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/ToastBit/toaststats?color=0088ff" />
     </a>
-    <a href="https://github.com/CoffeeBit/coffeestats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/CoffeeBit/coffeestats?color=0088ff" />
+    <a href="https://github.com/ToastBit/toaststats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ToastBit/toaststats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/CoffeeBit/coffeestats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/CoffeeBit/coffeestats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/ToastBit/toaststats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/ToastBit/toaststats/badge" />
     </a>
     <br />
     <br />
@@ -35,9 +35,9 @@
   <p align="center">
     <a href="#全部-demos">查看 Demo</a>
     ·
-    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告 Bug</a>
+    <a href="https://github.com/ToastBit/toaststats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告 Bug</a>
     ·
-    <a href="https://github.com/CoffeeBit/coffeestats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求增加功能</a>
+    <a href="https://github.com/ToastBit/toaststats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求增加功能</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -63,7 +63,7 @@
     <a href="/docs/readme_tr.md">Türkçe</a>
   </p>
 </p>
-<p align="center">喜欢这个项目？请考虑<a href="https://www.paypal.me/coffee">捐赠</a>来帮助它完善！
+<p align="center">喜欢这个项目？请考虑<a href="https://www.paypal.me/toast">捐赠</a>来帮助它完善！
 
 # 特性 <!-- omit in toc -->
 
@@ -93,7 +93,7 @@
 更改 `?username=` 的值为你的 GitHub 用户名。
 
 ```md
-[![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit)](https://github.com/ToastBit/toaststats)
 ```
 
 _注: 等级基于用户的统计信息计算得出，详见 [src/calculateRank.js](../src/calculateRank.js)_
@@ -105,7 +105,7 @@ _注: 等级基于用户的统计信息计算得出，详见 [src/calculateRank.
 > 选项：`&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=contribs,prs)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=contribs,prs)
 ```
 
 ### 将私人项目贡献添加到总提交计数中
@@ -117,7 +117,7 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 > 选项: `&count_private=true`
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&count_private=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&count_private=true)
 ```
 
 ### 显示图标
@@ -125,7 +125,7 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 如果想要显示图标，你可以调用 `show_icons=true` 参数，像这样：
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true)
 ```
 
 ### 主题
@@ -135,14 +135,14 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 通过调用 `?theme=THEME_NAME` 参数，像这样：
 
 ```md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true&theme=radical)
 ```
 
 #### 所有现有主题
 
 dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula
 
-<img src="https://res.cloudinary.com/coffee/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
+<img src="https://res.cloudinary.com/toast/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
 
 你可以预览[所有可用主题](../themes/README.md)或者签出[主题配置文件](../themes/index.js), 而且如果你喜欢, **你也可以贡献新的主题** :D
 
@@ -208,19 +208,19 @@ GitHub 更多置顶 允许你在使用 GitHub readme profile 时，在个人资�
 
 复制粘贴这段代码到你的 README 文件中，并更改链接。
 
-端点: `api/pin?username=CoffeeBit&repo=coffeestats`
+端点: `api/pin?username=ToastBit&repo=toaststats`
 
 ```md
-[![Readme Card](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats)](https://github.com/ToastBit/toaststats)
 ```
 
 ### Demo
 
-[![Readme Card](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats)](https://github.com/ToastBit/toaststats)
 
 使用 [show_owner](#自定义) 变量将 Repo 所有者的用户名包含在内。
 
-[![Readme Card](https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&show_owner=true)](https://github.com/CoffeeBit/coffeestats)
+[![Readme Card](https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats&show_owner=true)](https://github.com/ToastBit/toaststats)
 
 # 热门语言卡片
 
@@ -232,10 +232,10 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 将此代码复制粘贴到您的 `README.md` 文件中，并修改链接。
 
-端点: `api/top-langs?username=CoffeeBit`
+端点: `api/top-langs?username=ToastBit`
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 隐藏指定语言
@@ -243,7 +243,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 可以使用 `?hide=language1,language2` 参数来隐藏指定的语言。
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&hide=javascript,html)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&hide=javascript,html)](https://github.com/ToastBit/toaststats)
 ```
 
 ### 紧凑的语言卡片布局
@@ -251,16 +251,16 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 你可以使用 `&layout=compact` 参数来改变卡片的样式。
 
 ```md
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&layout=compact)](https://github.com/ToastBit/toaststats)
 ```
 
 ### Demo
 
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 
 - 紧凑布局
 
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit&layout=compact)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit&layout=compact)](https://github.com/ToastBit/toaststats)
 
 ---
 
@@ -268,41 +268,41 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 - 默认
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit)
 
 - 隐藏指定统计
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=contribs,issues)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=contribs,issues)
 
 - 显示图标
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&hide=issues&show_icons=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&hide=issues&show_icons=true)
 
 - 包含全部提交
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&include_all_commits=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&include_all_commits=true)
 
 - 主题
 
 从[默认主题](#主题)中进行选择
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true&theme=radical)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true&theme=radical)
 
 - 渐变
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - 自定义统计卡片
 
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api/?username=CoffeeBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api/?username=ToastBit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - 自定义 repo 卡片
 
-![Customized Card](https://coffeeactivitystats.vercel.app/api/pin?username=CoffeeBit&repo=coffeestats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://git-toaster-activity.vercel.app/api/pin?username=ToastBit&repo=toaststats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - 热门语言
 
-[![Top Langs](https://coffeeactivitystats.vercel.app/api/top-langs/?username=CoffeeBit)](https://github.com/CoffeeBit/coffeestats)
+[![Top Langs](https://git-toaster-activity.vercel.app/api/top-langs/?username=ToastBit)](https://github.com/ToastBit/toaststats)
 
 ---
 
@@ -311,11 +311,11 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 你通常无法将图片靠边显示。为此，您可以使用以下方法：
 
 ```html
-<a href="https://github.com/CoffeeBit/coffeestats">
-  <img align="center" src="https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats" />
+<a href="https://github.com/ToastBit/toaststats">
+  <img align="center" src="https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats" />
 </a>
-<a href="https://github.com/CoffeeBit/convoychat">
-  <img align="center" src="https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=convoychat" />
+<a href="https://github.com/ToastBit/convoychat">
+  <img align="center" src="https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=convoychat" />
 </a>
 ```
 
@@ -323,11 +323,11 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 #### [查看分步视频教程 作者：@codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-因为 GitHub 的 API 每个小时只允许 5 千次请求，我的 `https://coffeeactivitystats.vercel.app/api` 很有可能会触发限制。如果你将其托管在自己的 Vercel 服务器上，那么你就不必为此担心。点击 deploy 按钮来开始你的部署！
+因为 GitHub 的 API 每个小时只允许 5 千次请求，我的 `https://git-toaster-activity.vercel.app/api` 很有可能会触发限制。如果你将其托管在自己的 Vercel 服务器上，那么你就不必为此担心。点击 deploy 按钮来开始你的部署！
 
-注意: 从 [#58](https://github.com/CoffeeBit/coffeestats/pull/58) 开始，我们应该能够处理超过 5 千次的请求，并且不会出现宕机问题 :D
+注意: 从 [#58](https://github.com/ToastBit/toaststats/pull/58) 开始，我们应该能够处理超过 5 千次的请求，并且不会出现宕机问题 :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/CoffeeBit/coffeestats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ToastBit/toaststats)
 
 <details>
  <summary>设置 Vercel 的指导</summary>
@@ -358,7 +358,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 - 在你的 readme 中使用 mdstats 时，链接指向这里 :D
 - Star 并 分享这个项目 :rocket:
-- [![paypal.me/coffee](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/coffee) - 你可以通过 PayPal 一次性捐款. 我多半会买一杯 ~~咖啡~~ 茶. :tea:
+- [![paypal.me/toast](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/toast) - 你可以通过 PayPal 一次性捐款. 我多半会买一杯 ~~咖啡~~ 茶. :tea:
 
 谢谢！ :heart:
 

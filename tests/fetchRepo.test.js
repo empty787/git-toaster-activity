@@ -42,7 +42,7 @@ describe("Test fetchRepo", () => {
   it("should fetch correct user repo", async () => {
     mock.onPost("https://api.github.com/graphql").reply(200, data_user);
 
-    let repo = await fetchRepo("coffee", "convoychat");
+    let repo = await fetchRepo("toast", "convoychat");
 
     expect(repo).toStrictEqual({
       ...data_repo.repository,
@@ -53,7 +53,7 @@ describe("Test fetchRepo", () => {
   it("should fetch correct org repo", async () => {
     mock.onPost("https://api.github.com/graphql").reply(200, data_org);
 
-    let repo = await fetchRepo("coffee", "convoychat");
+    let repo = await fetchRepo("toast", "convoychat");
     expect(repo).toStrictEqual({
       ...data_repo.repository,
       starCount: data_repo.repository.stargazers.totalCount,
@@ -65,7 +65,7 @@ describe("Test fetchRepo", () => {
       .onPost("https://api.github.com/graphql")
       .reply(200, { data: { user: { repository: null }, organization: null } });
 
-    await expect(fetchRepo("coffee", "convoychat")).rejects.toThrow(
+    await expect(fetchRepo("toast", "convoychat")).rejects.toThrow(
       "User Repository Not found",
     );
   });
@@ -75,7 +75,7 @@ describe("Test fetchRepo", () => {
       .onPost("https://api.github.com/graphql")
       .reply(200, { data: { user: null, organization: { repository: null } } });
 
-    await expect(fetchRepo("coffee", "convoychat")).rejects.toThrow(
+    await expect(fetchRepo("toast", "convoychat")).rejects.toThrow(
       "Organization Repository Not found",
     );
   });
@@ -85,9 +85,7 @@ describe("Test fetchRepo", () => {
       .onPost("https://api.github.com/graphql")
       .reply(200, { data: { user: null, organization: null } });
 
-    await expect(fetchRepo("coffee", "convoychat")).rejects.toThrow(
-      "Not found",
-    );
+    await expect(fetchRepo("toast", "convoychat")).rejects.toThrow("Not found");
   });
 
   it("should throw error if repository is private", async () => {
@@ -98,7 +96,7 @@ describe("Test fetchRepo", () => {
       },
     });
 
-    await expect(fetchRepo("coffee", "convoychat")).rejects.toThrow(
+    await expect(fetchRepo("toast", "convoychat")).rejects.toThrow(
       "User Repository Not found",
     );
   });

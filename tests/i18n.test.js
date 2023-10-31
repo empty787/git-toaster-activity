@@ -6,15 +6,15 @@ describe("I18n", () => {
   it("should return translated string", () => {
     const i18n = new I18n({
       locale: "en",
-      translations: statCardLocales({ name: "Coffee", apostrophe: "s" }),
+      translations: statCardLocales({ name: "Toast", apostrophe: "s" }),
     });
-    expect(i18n.t("statcard.title")).toBe("Coffee's GitHub Stats");
+    expect(i18n.t("statcard.title")).toBe("Toast's GitHub Stats");
   });
 
   it("should throw error if translation string not found", () => {
     const i18n = new I18n({
       locale: "en",
-      translations: statCardLocales({ name: "Coffee", apostrophe: "s" }),
+      translations: statCardLocales({ name: "Toast", apostrophe: "s" }),
     });
     expect(() => i18n.t("statcard.title1")).toThrow(
       "statcard.title1 Translation string not found",
@@ -24,7 +24,7 @@ describe("I18n", () => {
   it("should throw error if translation not found for locale", () => {
     const i18n = new I18n({
       locale: "asdf",
-      translations: statCardLocales({ name: "Coffee", apostrophe: "s" }),
+      translations: statCardLocales({ name: "Toast", apostrophe: "s" }),
     });
     expect(() => i18n.t("statcard.title")).toThrow(
       "'statcard.title' translation not found for locale 'asdf'",

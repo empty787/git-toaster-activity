@@ -17,7 +17,7 @@ With inbuilt themes, you can customize the look of the card without doing any ma
 Use \`?theme=THEME_NAME\` parameter like so:
 
 \`\`\`md
-![Coffee's GitHub stats](https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&theme=dark&show_icons=true)
+![Toast's GitHub stats](https://git-toaster-activity.vercel.app/api?username=ToastBit&theme=dark&show_icons=true)
 \`\`\`
 
 ## Stats
@@ -41,16 +41,16 @@ ${STAT_CARD_LINKS_FLAG}
 ${REPO_CARD_LINKS_FLAG}
 
 
-[add-theme]: https://github.com/CoffeeBit/coffeestats/edit/master/themes/index.js
+[add-theme]: https://github.com/ToastBit/toaststats/edit/master/themes/index.js
 
 Want to add a new theme? Consider reading the [contribution guidelines](../CONTRIBUTING.md#themes-contribution) :D
 `;
 
 const createRepoMdLink = (theme) => {
-  return `\n[${theme}_repo]: https://coffeeactivitystats.vercel.app/api/pin/?username=CoffeeBit&repo=coffeestats&cache_seconds=86400&theme=${theme}`;
+  return `\n[${theme}_repo]: https://git-toaster-activity.vercel.app/api/pin/?username=ToastBit&repo=toaststats&cache_seconds=86400&theme=${theme}`;
 };
 const createStatMdLink = (theme) => {
-  return `\n[${theme}]: https://coffeeactivitystats.vercel.app/api?username=CoffeeBit&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
+  return `\n[${theme}]: https://git-toaster-activity.vercel.app/api?username=ToastBit&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
 };
 
 const generateLinks = (fn) => {
